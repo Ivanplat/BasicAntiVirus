@@ -1,0 +1,145 @@
+\hypertarget{class_application}{}\doxysection{Application Class Reference}
+\label{class_application}\index{Application@{Application}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_application_a8de497d511180af1b7068f914d6aa211}{Application}} (HINSTANCE \mbox{\hyperlink{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}{h\+Instance}}) noexcept
+\begin{DoxyCompactList}\small\item\em Default constructor that inialize a HINSTANCE of the application \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_application_a282f05139e12954f396433d0092d70c1}{Startup}} () noexcept
+\begin{DoxyCompactList}\small\item\em Startup methode. Calling branch\+: \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_application_ac3b505f67cde4b177fd2a5fb787c99ba}{Create\+Window\+Class}} ()
+\begin{DoxyCompactList}\small\item\em Create\+Window\+Class methode. Create a main window class and register it. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_application_acea51f6fcff63d6ad20010702b9ffa00}{Create\+Application\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Create\+Application\+Window methode. Create the main window and show it on a screen. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_application_aa2fb4766fcbc345920bbf26cdc5df15b}{Main\+Loop}} ()
+\begin{DoxyCompactList}\small\item\em Main\+Loop methode. While working. Catching the Windows messages and reply it for handler \mbox{\hyperlink{class_application_a15a2175a9bdd265c434908c383058889}{Win\+Proc()}} methode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static LRESULT WINAPI \mbox{\hyperlink{class_application_a15a2175a9bdd265c434908c383058889}{Win\+Proc}} (HWND \mbox{\hyperlink{class_application_a98f9a247371445e67cd3ec994cf99cf9}{h\+Wnd}}, UINT u\+Message, WPARAM w\+Param, LPARAM l\+Param)
+\begin{DoxyCompactList}\small\item\em Handler methode of the Windows messages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}\label{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}} 
+HINSTANCE {\bfseries h\+Instance}
+\begin{DoxyCompactList}\small\item\em HINSTANCE of the application. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_application_ae44a679e6c7f8ea5fc14445ac8f1b412}\label{class_application_ae44a679e6c7f8ea5fc14445ac8f1b412}} 
+WNDCLASSEX {\bfseries Wnd\+Class}
+\begin{DoxyCompactList}\small\item\em WNDCLASSEX of the application. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_application_a98f9a247371445e67cd3ec994cf99cf9}\label{class_application_a98f9a247371445e67cd3ec994cf99cf9}} 
+HWND {\bfseries h\+Wnd}
+\begin{DoxyCompactList}\small\item\em h\+Wnd of the main window of the application \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_application_a6c526d3c53098102e228a6b23e2e6b5d}\label{class_application_a6c526d3c53098102e228a6b23e2e6b5d}} 
+WCHAR {\bfseries Window\+Class} \mbox{[}\mbox{\hyperlink{_win_main_8cpp_af64f9b58a773d4dc668ecee8ac70c632}{MAX\+\_\+\+STRING\+\_\+\+LENGH}}\mbox{]}
+\begin{DoxyCompactList}\small\item\em Main window class name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_application_a76c0f2c896277e6e97490b10610b4588}\label{class_application_a76c0f2c896277e6e97490b10610b4588}} 
+WCHAR {\bfseries Window\+Name} \mbox{[}\mbox{\hyperlink{_win_main_8cpp_af64f9b58a773d4dc668ecee8ac70c632}{MAX\+\_\+\+STRING\+\_\+\+LENGH}}\mbox{]}
+\begin{DoxyCompactList}\small\item\em Main window name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_application_a8de497d511180af1b7068f914d6aa211}\label{class_application_a8de497d511180af1b7068f914d6aa211}} 
+\index{Application@{Application}!Application@{Application}}
+\index{Application@{Application}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{Application()}{Application()}}
+{\footnotesize\ttfamily Application\+::\+Application (\begin{DoxyParamCaption}\item[{HINSTANCE}]{h\+Instance }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}, {\ttfamily [noexcept]}}
+
+
+
+Default constructor that inialize a HINSTANCE of the application 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+Instance} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_application_acea51f6fcff63d6ad20010702b9ffa00}\label{class_application_acea51f6fcff63d6ad20010702b9ffa00}} 
+\index{Application@{Application}!CreateApplicationWindow@{CreateApplicationWindow}}
+\index{CreateApplicationWindow@{CreateApplicationWindow}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{CreateApplicationWindow()}{CreateApplicationWindow()}}
+{\footnotesize\ttfamily void Application\+::\+Create\+Application\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Create\+Application\+Window methode. Create the main window and show it on a screen. 
+
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_application_ac3b505f67cde4b177fd2a5fb787c99ba}\label{class_application_ac3b505f67cde4b177fd2a5fb787c99ba}} 
+\index{Application@{Application}!CreateWindowClass@{CreateWindowClass}}
+\index{CreateWindowClass@{CreateWindowClass}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{CreateWindowClass()}{CreateWindowClass()}}
+{\footnotesize\ttfamily void Application\+::\+Create\+Window\+Class (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Create\+Window\+Class methode. Create a main window class and register it. 
+
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_application_aa2fb4766fcbc345920bbf26cdc5df15b}\label{class_application_aa2fb4766fcbc345920bbf26cdc5df15b}} 
+\index{Application@{Application}!MainLoop@{MainLoop}}
+\index{MainLoop@{MainLoop}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{MainLoop()}{MainLoop()}}
+{\footnotesize\ttfamily void Application\+::\+Main\+Loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Main\+Loop methode. While working. Catching the Windows messages and reply it for handler \mbox{\hyperlink{class_application_a15a2175a9bdd265c434908c383058889}{Win\+Proc()}} methode. 
+
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_application_a282f05139e12954f396433d0092d70c1}\label{class_application_a282f05139e12954f396433d0092d70c1}} 
+\index{Application@{Application}!Startup@{Startup}}
+\index{Startup@{Startup}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{Startup()}{Startup()}}
+{\footnotesize\ttfamily void Application\+::\+Startup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [noexcept]}}
+
+
+
+Startup methode. Calling branch\+: 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_application_ac3b505f67cde4b177fd2a5fb787c99ba}{CreateWindowClass}}();}
+\DoxyCodeLine{\mbox{\hyperlink{class_application_acea51f6fcff63d6ad20010702b9ffa00}{CreateApplicationWindow}}();}
+\DoxyCodeLine{\mbox{\hyperlink{class_application_aa2fb4766fcbc345920bbf26cdc5df15b}{MainLoop}}();}
+
+\end{DoxyCode}
+ 
+
+\begin{DoxyReturn}{Returns}
+void
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_application_a15a2175a9bdd265c434908c383058889}\label{class_application_a15a2175a9bdd265c434908c383058889}} 
+\index{Application@{Application}!WinProc@{WinProc}}
+\index{WinProc@{WinProc}!Application@{Application}}
+\doxysubsubsection{\texorpdfstring{WinProc()}{WinProc()}}
+{\footnotesize\ttfamily LRESULT WINAPI Application\+::\+Win\+Proc (\begin{DoxyParamCaption}\item[{HWND}]{h\+Wnd,  }\item[{UINT}]{u\+Message,  }\item[{WPARAM}]{w\+Param,  }\item[{LPARAM}]{l\+Param }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Handler methode of the Windows messages. 
+
+\begin{DoxyReturn}{Returns}
+LRESULT
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Event\+Graph/source/repos/\+Basic\+Anti\+Virus/\+Basic\+Anti\+Virus/\+Source/\+Win\+API/public/\mbox{\hyperlink{_app_8h}{App.\+h}}\item 
+C\+:/\+Users/\+Event\+Graph/source/repos/\+Basic\+Anti\+Virus/\+Basic\+Anti\+Virus/\+Source/\+Win\+API/private/\mbox{\hyperlink{_app_8cpp}{App.\+cpp}}\end{DoxyCompactItemize}

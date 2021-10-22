@@ -1,0 +1,31 @@
+\hypertarget{_app_8h_source}{}\doxysection{App.\+h}
+\label{_app_8h_source}\index{C:/Users/EventGraph/source/repos/BasicAntiVirus/BasicAntiVirus/Source/WinAPI/public/App.h@{C:/Users/EventGraph/source/repos/BasicAntiVirus/BasicAntiVirus/Source/WinAPI/public/App.h}}
+\mbox{\hyperlink{_app_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{pch_8h}{pch.h}}"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_application}{Application}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_application_a8de497d511180af1b7068f914d6aa211}{Application}}(HINSTANCE \mbox{\hyperlink{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}{hInstance}}) noexcept : \mbox{\hyperlink{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}{hInstance}}(\mbox{\hyperlink{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}{hInstance}}) \{\};}
+\DoxyCodeLine{16     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_application}{\string~Application}}() noexcept = default;}
+\DoxyCodeLine{17 public:}
+\DoxyCodeLine{28     virtual \textcolor{keywordtype}{void} \mbox{\hyperlink{class_application_a282f05139e12954f396433d0092d70c1}{Startup}}() noexcept;}
+\DoxyCodeLine{29 private:}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{35     virtual \textcolor{keywordtype}{void} \mbox{\hyperlink{class_application_ac3b505f67cde4b177fd2a5fb787c99ba}{CreateWindowClass}}();}
+\DoxyCodeLine{40     virtual \textcolor{keywordtype}{void} \mbox{\hyperlink{class_application_acea51f6fcff63d6ad20010702b9ffa00}{CreateApplicationWindow}}();}
+\DoxyCodeLine{45     virtual \textcolor{keywordtype}{void} \mbox{\hyperlink{class_application_aa2fb4766fcbc345920bbf26cdc5df15b}{MainLoop}}();}
+\DoxyCodeLine{46 private:}
+\DoxyCodeLine{51     static LRESULT WINAPI \mbox{\hyperlink{class_application_a15a2175a9bdd265c434908c383058889}{WinProc}}(HWND \mbox{\hyperlink{class_application_a98f9a247371445e67cd3ec994cf99cf9}{hWnd}}, UINT uMessage, WPARAM wParam, LPARAM lParam);}
+\DoxyCodeLine{52 private:}
+\DoxyCodeLine{54     HINSTANCE \mbox{\hyperlink{class_application_a50a4c8fe3389ff7a4bdf984218a77e27}{hInstance}};}
+\DoxyCodeLine{56     WNDCLASSEX \mbox{\hyperlink{class_application_ae44a679e6c7f8ea5fc14445ac8f1b412}{WndClass}};}
+\DoxyCodeLine{58     HWND \mbox{\hyperlink{class_application_a98f9a247371445e67cd3ec994cf99cf9}{hWnd}};}
+\DoxyCodeLine{60     WCHAR \mbox{\hyperlink{class_application_a6c526d3c53098102e228a6b23e2e6b5d}{WindowClass}}[\mbox{\hyperlink{_win_main_8cpp_af64f9b58a773d4dc668ecee8ac70c632}{MAX\_STRING\_LENGH}}];}
+\DoxyCodeLine{62     WCHAR \mbox{\hyperlink{class_application_a76c0f2c896277e6e97490b10610b4588}{WindowName}}[\mbox{\hyperlink{_win_main_8cpp_af64f9b58a773d4dc668ecee8ac70c632}{MAX\_STRING\_LENGH}}];}
+\DoxyCodeLine{63 \};}
+
+\end{DoxyCode}

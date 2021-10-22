@@ -1,0 +1,4253 @@
+{
+  "abi_rev": 18,
+  "all_targets": "libs cli tests docs",
+  "ar_command": "lib",
+  "ar_options": "/nologo",
+  "ar_output_to": "/OUT:",
+  "arch": "x86_32",
+  "bakefile_arch": "x86",
+  "base_dir": "c:\\botan",
+  "bindir": "c:\\Botan\\bin",
+  "bogo_shim_src": "c:\\botan\\src\\bogo_shim\\bogo_shim.cpp",
+  "build_bogo_shim": false,
+  "build_cli_exe": true,
+  "build_coverage": false,
+  "build_dir": "build",
+  "build_fuzzers": null,
+  "build_shared_lib": true,
+  "build_static_lib": null,
+  "cc_compile_debug_flags": "/Zi /FS",
+  "cc_compile_flags": "/MD /bigobj /O2 /Oi",
+  "cc_compile_opt_flags": "/O2 /Oi",
+  "cc_lang_flags": "/EHs /GR",
+  "cc_macro": "MSVC",
+  "cc_sysroot": "",
+  "cc_warning_flags": "/W4 /wd4250 /wd4251 /wd4275 /wd4127",
+  "cli_build_info": [
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\argon2.obj",
+      "src": "c:/botan/src/cli/argon2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\asn1.obj",
+      "src": "c:/botan/src/cli/asn1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\bcrypt.obj",
+      "src": "c:/botan/src/cli/bcrypt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\cc_enc.obj",
+      "src": "c:/botan/src/cli/cc_enc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\cli.obj",
+      "src": "c:/botan/src/cli/cli.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\cli_rng.obj",
+      "src": "c:/botan/src/cli/cli_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\codec.obj",
+      "src": "c:/botan/src/cli/codec.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\compress.obj",
+      "src": "c:/botan/src/cli/compress.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\encryption.obj",
+      "src": "c:/botan/src/cli/encryption.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\entropy.obj",
+      "src": "c:/botan/src/cli/entropy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\hash.obj",
+      "src": "c:/botan/src/cli/hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\hmac.obj",
+      "src": "c:/botan/src/cli/hmac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\main.obj",
+      "src": "c:/botan/src/cli/main.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\math.obj",
+      "src": "c:/botan/src/cli/math.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\pbkdf.obj",
+      "src": "c:/botan/src/cli/pbkdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\pk_crypt.obj",
+      "src": "c:/botan/src/cli/pk_crypt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\psk.obj",
+      "src": "c:/botan/src/cli/psk.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\pubkey.obj",
+      "src": "c:/botan/src/cli/pubkey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\roughtime.obj",
+      "src": "c:/botan/src/cli/roughtime.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\sandbox.obj",
+      "src": "c:/botan/src/cli/sandbox.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\speed.obj",
+      "src": "c:/botan/src/cli/speed.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\timing_tests.obj",
+      "src": "c:/botan/src/cli/timing_tests.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tls_client.obj",
+      "src": "c:/botan/src/cli/tls_client.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tls_http_server.obj",
+      "src": "c:/botan/src/cli/tls_http_server.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tls_proxy.obj",
+      "src": "c:/botan/src/cli/tls_proxy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tls_server.obj",
+      "src": "c:/botan/src/cli/tls_server.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tls_utils.obj",
+      "src": "c:/botan/src/cli/tls_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\tss.obj",
+      "src": "c:/botan/src/cli/tss.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\utils.obj",
+      "src": "c:/botan/src/cli/utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\cli\\x509.obj",
+      "src": "c:/botan/src/cli/x509.cpp"
+    }
+  ],
+  "cli_exe": ".\\botan-cli.exe",
+  "cli_exe_name": "botan-cli.exe",
+  "cli_headers": [
+    "c:/botan/src/cli/argparse.h",
+    "c:/botan/src/cli/cli.h",
+    "c:/botan/src/cli/cli_exceptions.h",
+    "c:/botan/src/cli/sandbox.h",
+    "c:/botan/src/cli/socket_utils.h",
+    "c:/botan/src/cli/tls_helpers.h"
+  ],
+  "cli_objs": [
+    "build\\obj\\cli\\argon2.obj",
+    "build\\obj\\cli\\asn1.obj",
+    "build\\obj\\cli\\bcrypt.obj",
+    "build\\obj\\cli\\cc_enc.obj",
+    "build\\obj\\cli\\cli.obj",
+    "build\\obj\\cli\\cli_rng.obj",
+    "build\\obj\\cli\\codec.obj",
+    "build\\obj\\cli\\compress.obj",
+    "build\\obj\\cli\\encryption.obj",
+    "build\\obj\\cli\\entropy.obj",
+    "build\\obj\\cli\\hash.obj",
+    "build\\obj\\cli\\hmac.obj",
+    "build\\obj\\cli\\main.obj",
+    "build\\obj\\cli\\math.obj",
+    "build\\obj\\cli\\pbkdf.obj",
+    "build\\obj\\cli\\pk_crypt.obj",
+    "build\\obj\\cli\\psk.obj",
+    "build\\obj\\cli\\pubkey.obj",
+    "build\\obj\\cli\\roughtime.obj",
+    "build\\obj\\cli\\sandbox.obj",
+    "build\\obj\\cli\\speed.obj",
+    "build\\obj\\cli\\timing_tests.obj",
+    "build\\obj\\cli\\tls_client.obj",
+    "build\\obj\\cli\\tls_http_server.obj",
+    "build\\obj\\cli\\tls_proxy.obj",
+    "build\\obj\\cli\\tls_server.obj",
+    "build\\obj\\cli\\tls_utils.obj",
+    "build\\obj\\cli\\tss.obj",
+    "build\\obj\\cli\\utils.obj",
+    "build\\obj\\cli\\x509.obj"
+  ],
+  "cli_srcs": [
+    "c:/botan/src/cli/argon2.cpp",
+    "c:/botan/src/cli/asn1.cpp",
+    "c:/botan/src/cli/bcrypt.cpp",
+    "c:/botan/src/cli/cc_enc.cpp",
+    "c:/botan/src/cli/cli.cpp",
+    "c:/botan/src/cli/cli_rng.cpp",
+    "c:/botan/src/cli/codec.cpp",
+    "c:/botan/src/cli/compress.cpp",
+    "c:/botan/src/cli/encryption.cpp",
+    "c:/botan/src/cli/entropy.cpp",
+    "c:/botan/src/cli/hash.cpp",
+    "c:/botan/src/cli/hmac.cpp",
+    "c:/botan/src/cli/main.cpp",
+    "c:/botan/src/cli/math.cpp",
+    "c:/botan/src/cli/pbkdf.cpp",
+    "c:/botan/src/cli/pk_crypt.cpp",
+    "c:/botan/src/cli/psk.cpp",
+    "c:/botan/src/cli/pubkey.cpp",
+    "c:/botan/src/cli/roughtime.cpp",
+    "c:/botan/src/cli/sandbox.cpp",
+    "c:/botan/src/cli/speed.cpp",
+    "c:/botan/src/cli/timing_tests.cpp",
+    "c:/botan/src/cli/tls_client.cpp",
+    "c:/botan/src/cli/tls_http_server.cpp",
+    "c:/botan/src/cli/tls_proxy.cpp",
+    "c:/botan/src/cli/tls_server.cpp",
+    "c:/botan/src/cli/tls_utils.cpp",
+    "c:/botan/src/cli/tss.cpp",
+    "c:/botan/src/cli/utils.cpp",
+    "c:/botan/src/cli/x509.cpp"
+  ],
+  "cliobj_dir": "build\\obj\\cli",
+  "cmake_lib_flags": " /DBOTAN_DLL=__declspec\\(dllexport\\)",
+  "cmake_link_to": "crypt32 user32 ws2_32",
+  "command_line": "configure.py --cc=msvc --cp=i386",
+  "compiler_include_dirs": "build\\include build\\include\\external",
+  "cpu_family": "x86",
+  "cpu_features": [
+    "aesni",
+    "bmi2",
+    "rdrand",
+    "rdseed",
+    "sha",
+    "sse2",
+    "sse41",
+    "sse42",
+    "ssse3"
+  ],
+  "cpu_is_64bit": false,
+  "cxx": "cl",
+  "cxx_abi_debug_flags": "/MDd /bigobj",
+  "cxx_abi_flags": "",
+  "cxx_abi_opt_flags": "/MD /bigobj",
+  "dash_c": "/nologo /c",
+  "dash_o": "/Fo",
+  "distribution_info": "unspecified",
+  "doc_dir": "c:\\botan\\doc",
+  "doc_output_dir": "build\\docs",
+  "doc_output_dir_doxygen": null,
+  "doc_stamp_file": "build\\doc.stamp",
+  "docdir": "docs",
+  "endian": "little",
+  "exe_link_cmd": "$(LINKER)",
+  "external_link_cmd": "",
+  "extra_libs": "",
+  "fuzzer_bin": "",
+  "fuzzer_build_info": [],
+  "fuzzer_lib": "",
+  "fuzzer_mode": false,
+  "fuzzer_objs": [],
+  "fuzzer_output_dir": "",
+  "fuzzer_srcs": [],
+  "fuzzer_type": "",
+  "fuzzobj_dir": null,
+  "handbook_output_dir": "build\\docs\\handbook",
+  "include_paths": "/Ibuild\\include /Ibuild\\include\\external",
+  "includedir": "include",
+  "innosetup_arch": "",
+  "install_python_module": true,
+  "install_targets": "libs cli docs",
+  "isa_build_info": [],
+  "ldflags": "",
+  "lib_build_info": [
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_alg_id.obj",
+      "src": "c:/botan/src/lib/asn1/alg_id.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_obj.obj",
+      "src": "c:/botan/src/lib/asn1/asn1_obj.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_oid.obj",
+      "src": "c:/botan/src/lib/asn1/asn1_oid.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_print.obj",
+      "src": "c:/botan/src/lib/asn1/asn1_print.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_str.obj",
+      "src": "c:/botan/src/lib/asn1/asn1_str.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_time.obj",
+      "src": "c:/botan/src/lib/asn1/asn1_time.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_ber_dec.obj",
+      "src": "c:/botan/src/lib/asn1/ber_dec.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_der_enc.obj",
+      "src": "c:/botan/src/lib/asn1/der_enc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_oid_maps.obj",
+      "src": "c:/botan/src/lib/asn1/oid_maps.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\asn1_oids.obj",
+      "src": "c:/botan/src/lib/asn1/oids.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\base_buf_comp.obj",
+      "src": "c:/botan/src/lib/base/buf_comp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\base_scan_name.obj",
+      "src": "c:/botan/src/lib/base/scan_name.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\base_sym_algo.obj",
+      "src": "c:/botan/src/lib/base/sym_algo.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\base_symkey.obj",
+      "src": "c:/botan/src/lib/base/symkey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_aes.obj",
+      "src": "c:/botan/src/lib/block/aes/aes.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_aes_ni.obj",
+      "src": "c:/botan/src/lib/block/aes/aes_ni/aes_ni.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_aes_vperm.obj",
+      "src": "c:/botan/src/lib/block/aes/aes_vperm/aes_vperm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_aria.obj",
+      "src": "c:/botan/src/lib/block/aria/aria.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_cipher.obj",
+      "src": "c:/botan/src/lib/block/block_cipher.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_blowfish.obj",
+      "src": "c:/botan/src/lib/block/blowfish/blowfish.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_camellia.obj",
+      "src": "c:/botan/src/lib/block/camellia/camellia.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_cascade.obj",
+      "src": "c:/botan/src/lib/block/cascade/cascade.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_cast128.obj",
+      "src": "c:/botan/src/lib/block/cast128/cast128.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_cast256.obj",
+      "src": "c:/botan/src/lib/block/cast256/cast256.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_des.obj",
+      "src": "c:/botan/src/lib/block/des/des.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_des_tab.obj",
+      "src": "c:/botan/src/lib/block/des/des_tab.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_des_desx.obj",
+      "src": "c:/botan/src/lib/block/des/desx.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_gost_28147.obj",
+      "src": "c:/botan/src/lib/block/gost_28147/gost_28147.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_idea.obj",
+      "src": "c:/botan/src/lib/block/idea/idea.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_idea_sse2.obj",
+      "src": "c:/botan/src/lib/block/idea/idea_sse2/idea_sse2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_kasumi.obj",
+      "src": "c:/botan/src/lib/block/kasumi/kasumi.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_lion.obj",
+      "src": "c:/botan/src/lib/block/lion/lion.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_misty1.obj",
+      "src": "c:/botan/src/lib/block/misty1/misty1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_noekeon.obj",
+      "src": "c:/botan/src/lib/block/noekeon/noekeon.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_noekeon_simd.obj",
+      "src": "c:/botan/src/lib/block/noekeon/noekeon_simd/noekeon_simd.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_seed.obj",
+      "src": "c:/botan/src/lib/block/seed/seed.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_serpent.obj",
+      "src": "c:/botan/src/lib/block/serpent/serpent.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_serpent_simd.obj",
+      "src": "c:/botan/src/lib/block/serpent/serpent_simd/serpent_simd.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_shacal2.obj",
+      "src": "c:/botan/src/lib/block/shacal2/shacal2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_shacal2_simd.obj",
+      "src": "c:/botan/src/lib/block/shacal2/shacal2_simd/shacal2_simd.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_shacal2_x86.obj",
+      "src": "c:/botan/src/lib/block/shacal2/shacal2_x86/shacal2_x86.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_sm4.obj",
+      "src": "c:/botan/src/lib/block/sm4/sm4.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_threefish_512.obj",
+      "src": "c:/botan/src/lib/block/threefish_512/threefish_512.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_twofish.obj",
+      "src": "c:/botan/src/lib/block/twofish/twofish.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_twofish_tab.obj",
+      "src": "c:/botan/src/lib/block/twofish/twofish_tab.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\block_xtea.obj",
+      "src": "c:/botan/src/lib/block/xtea/xtea.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\codec_base32.obj",
+      "src": "c:/botan/src/lib/codec/base32/base32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\codec_base58.obj",
+      "src": "c:/botan/src/lib/codec/base58/base58.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\codec_base64.obj",
+      "src": "c:/botan/src/lib/codec/base64/base64.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\codec_hex.obj",
+      "src": "c:/botan/src/lib/codec/hex/hex.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_25519.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_25519.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_aead.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_aead.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_auth.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_auth.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_box.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_box.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_chacha.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_chacha.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_salsa.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_salsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_secretbox.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_secretbox.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\compat_sodium_utils.obj",
+      "src": "c:/botan/src/lib/compat/sodium/sodium_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\entropy_srcs.obj",
+      "src": "c:/botan/src/lib/entropy/entropy_srcs.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\entropy_rdseed.obj",
+      "src": "c:/botan/src/lib/entropy/rdseed/rdseed.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\entropy_win32_stats_es_win32.obj",
+      "src": "c:/botan/src/lib/entropy/win32_stats/es_win32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi.obj",
+      "src": "c:/botan/src/lib/ffi/ffi.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_block.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_block.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_cert.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_cert.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_cipher.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_cipher.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_fpe.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_fpe.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_hash.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_hotp.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_hotp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_kdf.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_kdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_keywrap.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_keywrap.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_mac.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_mac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_mp.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_mp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_pk_op.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_pk_op.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_pkey.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_pkey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_pkey_algs.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_pkey_algs.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_rng.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\ffi_totp.obj",
+      "src": "c:/botan/src/lib/ffi/ffi_totp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_algo_filt.obj",
+      "src": "c:/botan/src/lib/filters/algo_filt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_b64_filt.obj",
+      "src": "c:/botan/src/lib/filters/b64_filt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_basefilt.obj",
+      "src": "c:/botan/src/lib/filters/basefilt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_buf_filt.obj",
+      "src": "c:/botan/src/lib/filters/buf_filt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_cipher_filter.obj",
+      "src": "c:/botan/src/lib/filters/cipher_filter.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_comp_filter.obj",
+      "src": "c:/botan/src/lib/filters/comp_filter.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_data_snk.obj",
+      "src": "c:/botan/src/lib/filters/data_snk.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_filter.obj",
+      "src": "c:/botan/src/lib/filters/filter.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_hex_filt.obj",
+      "src": "c:/botan/src/lib/filters/hex_filt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_out_buf.obj",
+      "src": "c:/botan/src/lib/filters/out_buf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_pipe.obj",
+      "src": "c:/botan/src/lib/filters/pipe.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_pipe_io.obj",
+      "src": "c:/botan/src/lib/filters/pipe_io.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_pipe_rw.obj",
+      "src": "c:/botan/src/lib/filters/pipe_rw.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_secqueue.obj",
+      "src": "c:/botan/src/lib/filters/secqueue.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\filters_threaded_fork.obj",
+      "src": "c:/botan/src/lib/filters/threaded_fork.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_blake2_blake2b.obj",
+      "src": "c:/botan/src/lib/hash/blake2/blake2b.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_checksum_adler32.obj",
+      "src": "c:/botan/src/lib/hash/checksum/adler32/adler32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_checksum_crc24.obj",
+      "src": "c:/botan/src/lib/hash/checksum/crc24/crc24.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_checksum_crc32.obj",
+      "src": "c:/botan/src/lib/hash/checksum/crc32/crc32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_comb4p.obj",
+      "src": "c:/botan/src/lib/hash/comb4p/comb4p.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_gost_3411.obj",
+      "src": "c:/botan/src/lib/hash/gost_3411/gost_3411.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash.obj",
+      "src": "c:/botan/src/lib/hash/hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_keccak.obj",
+      "src": "c:/botan/src/lib/hash/keccak/keccak.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_md4.obj",
+      "src": "c:/botan/src/lib/hash/md4/md4.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_md5.obj",
+      "src": "c:/botan/src/lib/hash/md5/md5.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_mdx_hash.obj",
+      "src": "c:/botan/src/lib/hash/mdx_hash/mdx_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_par_hash.obj",
+      "src": "c:/botan/src/lib/hash/par_hash/par_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_rmd160.obj",
+      "src": "c:/botan/src/lib/hash/rmd160/rmd160.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha1_sha160.obj",
+      "src": "c:/botan/src/lib/hash/sha1/sha160.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha1_sse2.obj",
+      "src": "c:/botan/src/lib/hash/sha1/sha1_sse2/sha1_sse2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha1_x86.obj",
+      "src": "c:/botan/src/lib/hash/sha1/sha1_x86/sha1_x86.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha2_32.obj",
+      "src": "c:/botan/src/lib/hash/sha2_32/sha2_32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha2_32_sha2_32_x86.obj",
+      "src": "c:/botan/src/lib/hash/sha2_32/sha2_32_x86/sha2_32_x86.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha2_64.obj",
+      "src": "c:/botan/src/lib/hash/sha2_64/sha2_64.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sha3.obj",
+      "src": "c:/botan/src/lib/hash/sha3/sha3.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_shake.obj",
+      "src": "c:/botan/src/lib/hash/shake/shake.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_skein_512.obj",
+      "src": "c:/botan/src/lib/hash/skein/skein_512.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_sm3.obj",
+      "src": "c:/botan/src/lib/hash/sm3/sm3.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_streebog.obj",
+      "src": "c:/botan/src/lib/hash/streebog/streebog.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_streebog_precalc.obj",
+      "src": "c:/botan/src/lib/hash/streebog/streebog_precalc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_tiger_tig_tab.obj",
+      "src": "c:/botan/src/lib/hash/tiger/tig_tab.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_tiger.obj",
+      "src": "c:/botan/src/lib/hash/tiger/tiger.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_whirlpool.obj",
+      "src": "c:/botan/src/lib/hash/whirlpool/whirlpool.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\hash_whirlpool_whrl_tab.obj",
+      "src": "c:/botan/src/lib/hash/whirlpool/whrl_tab.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_hkdf.obj",
+      "src": "c:/botan/src/lib/kdf/hkdf/hkdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf.obj",
+      "src": "c:/botan/src/lib/kdf/kdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_kdf1.obj",
+      "src": "c:/botan/src/lib/kdf/kdf1/kdf1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_kdf1_iso18033.obj",
+      "src": "c:/botan/src/lib/kdf/kdf1_iso18033/kdf1_iso18033.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_kdf2.obj",
+      "src": "c:/botan/src/lib/kdf/kdf2/kdf2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_prf_tls.obj",
+      "src": "c:/botan/src/lib/kdf/prf_tls/prf_tls.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_prf_x942.obj",
+      "src": "c:/botan/src/lib/kdf/prf_x942/prf_x942.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_sp800_108.obj",
+      "src": "c:/botan/src/lib/kdf/sp800_108/sp800_108.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_sp800_56a.obj",
+      "src": "c:/botan/src/lib/kdf/sp800_56a/sp800_56a.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\kdf_sp800_56c.obj",
+      "src": "c:/botan/src/lib/kdf/sp800_56c/sp800_56c.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_cbc_mac.obj",
+      "src": "c:/botan/src/lib/mac/cbc_mac/cbc_mac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_cmac.obj",
+      "src": "c:/botan/src/lib/mac/cmac/cmac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_gmac.obj",
+      "src": "c:/botan/src/lib/mac/gmac/gmac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_hmac.obj",
+      "src": "c:/botan/src/lib/mac/hmac/hmac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac.obj",
+      "src": "c:/botan/src/lib/mac/mac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_poly1305.obj",
+      "src": "c:/botan/src/lib/mac/poly1305/poly1305.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_siphash.obj",
+      "src": "c:/botan/src/lib/mac/siphash/siphash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\mac_x919_mac.obj",
+      "src": "c:/botan/src/lib/mac/x919_mac/x919_mac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_big_code.obj",
+      "src": "c:/botan/src/lib/math/bigint/big_code.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_big_io.obj",
+      "src": "c:/botan/src/lib/math/bigint/big_io.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_big_ops2.obj",
+      "src": "c:/botan/src/lib/math/bigint/big_ops2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_big_ops3.obj",
+      "src": "c:/botan/src/lib/math/bigint/big_ops3.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_big_rand.obj",
+      "src": "c:/botan/src/lib/math/bigint/big_rand.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint.obj",
+      "src": "c:/botan/src/lib/math/bigint/bigint.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_bigint_divide.obj",
+      "src": "c:/botan/src/lib/math/bigint/divide.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_mp_comba.obj",
+      "src": "c:/botan/src/lib/math/mp/mp_comba.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_mp_karat.obj",
+      "src": "c:/botan/src/lib/math/mp/mp_karat.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_mp_monty.obj",
+      "src": "c:/botan/src/lib/math/mp/mp_monty.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_mp_monty_n.obj",
+      "src": "c:/botan/src/lib/math/mp/mp_monty_n.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_dsa_gen.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/dsa_gen.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_jacobi.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/jacobi.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_make_prm.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/make_prm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_mod_inv.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/mod_inv.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_monty.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/monty.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_monty_exp.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/monty_exp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_mp_numth.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/mp_numth.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_nistp_redc.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/nistp_redc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_numthry.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/numthry.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_pow_mod.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/pow_mod.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_primality.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/primality.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_primes.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/primes.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_reducer.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/reducer.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\math_numbertheory_ressol.obj",
+      "src": "c:/botan/src/lib/math/numbertheory/ressol.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_aont_package.obj",
+      "src": "c:/botan/src/lib/misc/aont/package.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_cryptobox.obj",
+      "src": "c:/botan/src/lib/misc/cryptobox/cryptobox.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_fpe_fe1.obj",
+      "src": "c:/botan/src/lib/misc/fpe_fe1/fpe_fe1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_hotp.obj",
+      "src": "c:/botan/src/lib/misc/hotp/hotp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_hotp_totp.obj",
+      "src": "c:/botan/src/lib/misc/hotp/totp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_nist_keywrap.obj",
+      "src": "c:/botan/src/lib/misc/nist_keywrap/nist_keywrap.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_rfc3394.obj",
+      "src": "c:/botan/src/lib/misc/rfc3394/rfc3394.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_roughtime.obj",
+      "src": "c:/botan/src/lib/misc/roughtime/roughtime.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_srp6.obj",
+      "src": "c:/botan/src/lib/misc/srp6/srp6.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\misc_tss.obj",
+      "src": "c:/botan/src/lib/misc/tss/tss.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead.obj",
+      "src": "c:/botan/src/lib/modes/aead/aead.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_ccm.obj",
+      "src": "c:/botan/src/lib/modes/aead/ccm/ccm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_chacha20poly1305.obj",
+      "src": "c:/botan/src/lib/modes/aead/chacha20poly1305/chacha20poly1305.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_eax.obj",
+      "src": "c:/botan/src/lib/modes/aead/eax/eax.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_gcm.obj",
+      "src": "c:/botan/src/lib/modes/aead/gcm/gcm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_ocb.obj",
+      "src": "c:/botan/src/lib/modes/aead/ocb/ocb.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_aead_siv.obj",
+      "src": "c:/botan/src/lib/modes/aead/siv/siv.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_cbc.obj",
+      "src": "c:/botan/src/lib/modes/cbc/cbc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_cfb.obj",
+      "src": "c:/botan/src/lib/modes/cfb/cfb.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_cipher_mode.obj",
+      "src": "c:/botan/src/lib/modes/cipher_mode.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_mode_pad.obj",
+      "src": "c:/botan/src/lib/modes/mode_pad/mode_pad.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\modes_xts.obj",
+      "src": "c:/botan/src/lib/modes/xts/xts.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\passhash_bcrypt.obj",
+      "src": "c:/botan/src/lib/passhash/bcrypt/bcrypt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\passhash_passhash9.obj",
+      "src": "c:/botan/src/lib/passhash/passhash9/passhash9.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_argon2.obj",
+      "src": "c:/botan/src/lib/pbkdf/argon2/argon2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_argon2_argon2fmt.obj",
+      "src": "c:/botan/src/lib/pbkdf/argon2/argon2fmt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_argon2_argon2pwhash.obj",
+      "src": "c:/botan/src/lib/pbkdf/argon2/argon2pwhash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_bcrypt_pbkdf.obj",
+      "src": "c:/botan/src/lib/pbkdf/bcrypt_pbkdf/bcrypt_pbkdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf.obj",
+      "src": "c:/botan/src/lib/pbkdf/pbkdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_pbkdf1.obj",
+      "src": "c:/botan/src/lib/pbkdf/pbkdf1/pbkdf1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_pbkdf2.obj",
+      "src": "c:/botan/src/lib/pbkdf/pbkdf2/pbkdf2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_pgp_s2k.obj",
+      "src": "c:/botan/src/lib/pbkdf/pgp_s2k/pgp_s2k.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_pwdhash.obj",
+      "src": "c:/botan/src/lib/pbkdf/pwdhash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pbkdf_scrypt.obj",
+      "src": "c:/botan/src/lib/pbkdf/scrypt/scrypt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_eme.obj",
+      "src": "c:/botan/src/lib/pk_pad/eme.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_eme_oaep_oaep.obj",
+      "src": "c:/botan/src/lib/pk_pad/eme_oaep/oaep.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_eme_pkcs1_eme_pkcs.obj",
+      "src": "c:/botan/src/lib/pk_pad/eme_pkcs1/eme_pkcs.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_eme_raw.obj",
+      "src": "c:/botan/src/lib/pk_pad/eme_raw/eme_raw.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa1.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa1/emsa1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa_pkcs1.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa_pkcs1/emsa_pkcs1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa_pssr_pssr.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa_pssr/pssr.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa_raw.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa_raw/emsa_raw.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_emsa_x931.obj",
+      "src": "c:/botan/src/lib/pk_pad/emsa_x931/emsa_x931.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_hash_id.obj",
+      "src": "c:/botan/src/lib/pk_pad/hash_id/hash_id.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_iso9796.obj",
+      "src": "c:/botan/src/lib/pk_pad/iso9796/iso9796.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_mgf1.obj",
+      "src": "c:/botan/src/lib/pk_pad/mgf1/mgf1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pk_pad_padding.obj",
+      "src": "c:/botan/src/lib/pk_pad/padding.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_ecc_key.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_ecc_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_ecdh.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_ecdh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_ecdsa.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_ecdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_mechanism.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_mechanism.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_module.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_module.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_object.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_object.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_randomgenerator.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_randomgenerator.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_rsa.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_rsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_session.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_session.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_slot.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_slot.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\prov_pkcs11_p11_x509.obj",
+      "src": "c:/botan/src/lib/prov/pkcs11/p11_x509.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\psk_db.obj",
+      "src": "c:/botan/src/lib/psk_db/psk_db.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\psk_db_psk_db_sql.obj",
+      "src": "c:/botan/src/lib/psk_db/psk_db_sql.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_blinding.obj",
+      "src": "c:/botan/src/lib/pubkey/blinding.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_cecpq1.obj",
+      "src": "c:/botan/src/lib/pubkey/cecpq1/cecpq1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_curve25519.obj",
+      "src": "c:/botan/src/lib/pubkey/curve25519/curve25519.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_curve25519_donna.obj",
+      "src": "c:/botan/src/lib/pubkey/curve25519/donna.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dh.obj",
+      "src": "c:/botan/src/lib/pubkey/dh/dh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dl_algo.obj",
+      "src": "c:/botan/src/lib/pubkey/dl_algo/dl_algo.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dl_group.obj",
+      "src": "c:/botan/src/lib/pubkey/dl_group/dl_group.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dl_group_dl_named.obj",
+      "src": "c:/botan/src/lib/pubkey/dl_group/dl_named.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dlies.obj",
+      "src": "c:/botan/src/lib/pubkey/dlies/dlies.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_dsa.obj",
+      "src": "c:/botan/src/lib/pubkey/dsa/dsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ec_group_curve_gfp.obj",
+      "src": "c:/botan/src/lib/pubkey/ec_group/curve_gfp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ec_group.obj",
+      "src": "c:/botan/src/lib/pubkey/ec_group/ec_group.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ec_group_ec_named.obj",
+      "src": "c:/botan/src/lib/pubkey/ec_group/ec_named.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ec_group_point_gfp.obj",
+      "src": "c:/botan/src/lib/pubkey/ec_group/point_gfp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ec_group_point_mul.obj",
+      "src": "c:/botan/src/lib/pubkey/ec_group/point_mul.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ecc_key.obj",
+      "src": "c:/botan/src/lib/pubkey/ecc_key/ecc_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ecdh.obj",
+      "src": "c:/botan/src/lib/pubkey/ecdh/ecdh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ecdsa.obj",
+      "src": "c:/botan/src/lib/pubkey/ecdsa/ecdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ecgdsa.obj",
+      "src": "c:/botan/src/lib/pubkey/ecgdsa/ecgdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ecies.obj",
+      "src": "c:/botan/src/lib/pubkey/ecies/ecies.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_eckcdsa.obj",
+      "src": "c:/botan/src/lib/pubkey/eckcdsa/eckcdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/ed25519.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519_fe.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/ed25519_fe.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519_key.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/ed25519_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519_ge.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/ge.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519_sc_muladd.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/sc_muladd.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_ed25519_sc_reduce.obj",
+      "src": "c:/botan/src/lib/pubkey/ed25519/sc_reduce.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_elgamal.obj",
+      "src": "c:/botan/src/lib/pubkey/elgamal/elgamal.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_gost_3410.obj",
+      "src": "c:/botan/src/lib/pubkey/gost_3410/gost_3410.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_keypair.obj",
+      "src": "c:/botan/src/lib/pubkey/keypair/keypair.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_code_based_key_gen.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/code_based_key_gen.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_gf2m_rootfind_dcmp.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/gf2m_rootfind_dcmp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_gf2m_small_m.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/gf2m_small_m.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_goppa_code.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/goppa_code.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_workfactor.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/mce_workfactor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_mceliece.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/mceliece.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_mceliece_key.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/mceliece_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mce_polyn_gf2m.obj",
+      "src": "c:/botan/src/lib/pubkey/mce/polyn_gf2m.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_mceies.obj",
+      "src": "c:/botan/src/lib/pubkey/mceies/mceies.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_newhope.obj",
+      "src": "c:/botan/src/lib/pubkey/newhope/newhope.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pbes2.obj",
+      "src": "c:/botan/src/lib/pubkey/pbes2/pbes2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pem.obj",
+      "src": "c:/botan/src/lib/pubkey/pem/pem.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pk_algs.obj",
+      "src": "c:/botan/src/lib/pubkey/pk_algs.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pk_keys.obj",
+      "src": "c:/botan/src/lib/pubkey/pk_keys.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pk_ops.obj",
+      "src": "c:/botan/src/lib/pubkey/pk_ops.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_pkcs8.obj",
+      "src": "c:/botan/src/lib/pubkey/pkcs8.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey.obj",
+      "src": "c:/botan/src/lib/pubkey/pubkey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_rfc6979.obj",
+      "src": "c:/botan/src/lib/pubkey/rfc6979/rfc6979.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_rsa.obj",
+      "src": "c:/botan/src/lib/pubkey/rsa/rsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_sm2.obj",
+      "src": "c:/botan/src/lib/pubkey/sm2/sm2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_sm2_enc.obj",
+      "src": "c:/botan/src/lib/pubkey/sm2/sm2_enc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_workfactor.obj",
+      "src": "c:/botan/src/lib/pubkey/workfactor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_x509_key.obj",
+      "src": "c:/botan/src/lib/pubkey/x509_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_common_ops.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_common_ops.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_hash.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_index_registry.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_index_registry.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_parameters.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_parameters.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_privatekey.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_privatekey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_publickey.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_publickey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_signature.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_signature.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_signature_operation.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_signature_operation.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_verification_operation.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_verification_operation.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_wots_parameters.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_wots_parameters.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_wots_privatekey.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_wots_privatekey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\pubkey_xmss_wots_publickey.obj",
+      "src": "c:/botan/src/lib/pubkey/xmss/xmss_wots_publickey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_auto_rng.obj",
+      "src": "c:/botan/src/lib/rng/auto_rng/auto_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_chacha_rng.obj",
+      "src": "c:/botan/src/lib/rng/chacha_rng/chacha_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_hmac_drbg.obj",
+      "src": "c:/botan/src/lib/rng/hmac_drbg/hmac_drbg.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_processor_rng.obj",
+      "src": "c:/botan/src/lib/rng/processor_rng/processor_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_rdrand_rng.obj",
+      "src": "c:/botan/src/lib/rng/rdrand_rng/rdrand_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng.obj",
+      "src": "c:/botan/src/lib/rng/rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_stateful_rng.obj",
+      "src": "c:/botan/src/lib/rng/stateful_rng/stateful_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\rng_system_rng.obj",
+      "src": "c:/botan/src/lib/rng/system_rng/system_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_chacha.obj",
+      "src": "c:/botan/src/lib/stream/chacha/chacha.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_chacha_simd32.obj",
+      "src": "c:/botan/src/lib/stream/chacha/chacha_simd32/chacha_simd32.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_ctr.obj",
+      "src": "c:/botan/src/lib/stream/ctr/ctr.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_ofb.obj",
+      "src": "c:/botan/src/lib/stream/ofb/ofb.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_rc4.obj",
+      "src": "c:/botan/src/lib/stream/rc4/rc4.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_salsa20.obj",
+      "src": "c:/botan/src/lib/stream/salsa20/salsa20.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_shake_cipher.obj",
+      "src": "c:/botan/src/lib/stream/shake_cipher/shake_cipher.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\stream_cipher.obj",
+      "src": "c:/botan/src/lib/stream/stream_cipher.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_credentials_manager.obj",
+      "src": "c:/botan/src/lib/tls/credentials_manager.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_cert_req.obj",
+      "src": "c:/botan/src/lib/tls/msg_cert_req.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_cert_status.obj",
+      "src": "c:/botan/src/lib/tls/msg_cert_status.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_cert_verify.obj",
+      "src": "c:/botan/src/lib/tls/msg_cert_verify.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_certificate.obj",
+      "src": "c:/botan/src/lib/tls/msg_certificate.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_client_hello.obj",
+      "src": "c:/botan/src/lib/tls/msg_client_hello.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_client_kex.obj",
+      "src": "c:/botan/src/lib/tls/msg_client_kex.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_finished.obj",
+      "src": "c:/botan/src/lib/tls/msg_finished.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_hello_verify.obj",
+      "src": "c:/botan/src/lib/tls/msg_hello_verify.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_server_hello.obj",
+      "src": "c:/botan/src/lib/tls/msg_server_hello.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_server_kex.obj",
+      "src": "c:/botan/src/lib/tls/msg_server_kex.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_msg_session_ticket.obj",
+      "src": "c:/botan/src/lib/tls/msg_session_ticket.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_sessions_sql_tls_session_manager_sql.obj",
+      "src": "c:/botan/src/lib/tls/sessions_sql/tls_session_manager_sql.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_alert.obj",
+      "src": "c:/botan/src/lib/tls/tls_alert.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_algos.obj",
+      "src": "c:/botan/src/lib/tls/tls_algos.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_blocking.obj",
+      "src": "c:/botan/src/lib/tls/tls_blocking.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_callbacks.obj",
+      "src": "c:/botan/src/lib/tls/tls_callbacks.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_cbc.obj",
+      "src": "c:/botan/src/lib/tls/tls_cbc/tls_cbc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_channel.obj",
+      "src": "c:/botan/src/lib/tls/tls_channel.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_ciphersuite.obj",
+      "src": "c:/botan/src/lib/tls/tls_ciphersuite.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_client.obj",
+      "src": "c:/botan/src/lib/tls/tls_client.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_extensions.obj",
+      "src": "c:/botan/src/lib/tls/tls_extensions.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_handshake_hash.obj",
+      "src": "c:/botan/src/lib/tls/tls_handshake_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_handshake_io.obj",
+      "src": "c:/botan/src/lib/tls/tls_handshake_io.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_handshake_state.obj",
+      "src": "c:/botan/src/lib/tls/tls_handshake_state.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_policy.obj",
+      "src": "c:/botan/src/lib/tls/tls_policy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_record.obj",
+      "src": "c:/botan/src/lib/tls/tls_record.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_server.obj",
+      "src": "c:/botan/src/lib/tls/tls_server.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_session.obj",
+      "src": "c:/botan/src/lib/tls/tls_session.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_session_key.obj",
+      "src": "c:/botan/src/lib/tls/tls_session_key.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_session_manager_memory.obj",
+      "src": "c:/botan/src/lib/tls/tls_session_manager_memory.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_suite_info.obj",
+      "src": "c:/botan/src/lib/tls/tls_suite_info.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_text_policy.obj",
+      "src": "c:/botan/src/lib/tls/tls_text_policy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\tls_version.obj",
+      "src": "c:/botan/src/lib/tls/tls_version.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_assert.obj",
+      "src": "c:/botan/src/lib/utils/assert.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_calendar.obj",
+      "src": "c:/botan/src/lib/utils/calendar.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_charset.obj",
+      "src": "c:/botan/src/lib/utils/charset.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_cpuid.obj",
+      "src": "c:/botan/src/lib/utils/cpuid/cpuid.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_cpuid_arm.obj",
+      "src": "c:/botan/src/lib/utils/cpuid/cpuid_arm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_cpuid_ppc.obj",
+      "src": "c:/botan/src/lib/utils/cpuid/cpuid_ppc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_cpuid_x86.obj",
+      "src": "c:/botan/src/lib/utils/cpuid/cpuid_x86.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_ct_utils.obj",
+      "src": "c:/botan/src/lib/utils/ct_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_data_src.obj",
+      "src": "c:/botan/src/lib/utils/data_src.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_dyn_load.obj",
+      "src": "c:/botan/src/lib/utils/dyn_load/dyn_load.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_exceptn.obj",
+      "src": "c:/botan/src/lib/utils/exceptn.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_filesystem.obj",
+      "src": "c:/botan/src/lib/utils/filesystem.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_ghash.obj",
+      "src": "c:/botan/src/lib/utils/ghash/ghash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_ghash_cpu.obj",
+      "src": "c:/botan/src/lib/utils/ghash/ghash_cpu/ghash_cpu.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_ghash_vperm.obj",
+      "src": "c:/botan/src/lib/utils/ghash/ghash_vperm/ghash_vperm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_http_util.obj",
+      "src": "c:/botan/src/lib/utils/http_util/http_util.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_locking_allocator.obj",
+      "src": "c:/botan/src/lib/utils/locking_allocator/locking_allocator.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_mem_ops.obj",
+      "src": "c:/botan/src/lib/utils/mem_ops.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_mem_pool.obj",
+      "src": "c:/botan/src/lib/utils/mem_pool/mem_pool.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_os_utils.obj",
+      "src": "c:/botan/src/lib/utils/os_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_parsing.obj",
+      "src": "c:/botan/src/lib/utils/parsing.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_poly_dbl.obj",
+      "src": "c:/botan/src/lib/utils/poly_dbl/poly_dbl.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_read_cfg.obj",
+      "src": "c:/botan/src/lib/utils/read_cfg.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_read_kv.obj",
+      "src": "c:/botan/src/lib/utils/read_kv.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_socket.obj",
+      "src": "c:/botan/src/lib/utils/socket/socket.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_socket_udp.obj",
+      "src": "c:/botan/src/lib/utils/socket/socket_udp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_socket_uri.obj",
+      "src": "c:/botan/src/lib/utils/socket/uri.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_thread_utils_barrier.obj",
+      "src": "c:/botan/src/lib/utils/thread_utils/barrier.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_thread_utils_rwlock.obj",
+      "src": "c:/botan/src/lib/utils/thread_utils/rwlock.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_thread_utils_semaphore.obj",
+      "src": "c:/botan/src/lib/utils/thread_utils/semaphore.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_thread_utils_thread_pool.obj",
+      "src": "c:/botan/src/lib/utils/thread_utils/thread_pool.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_timer.obj",
+      "src": "c:/botan/src/lib/utils/timer.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_uuid.obj",
+      "src": "c:/botan/src/lib/utils/uuid/uuid.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\utils_version.obj",
+      "src": "c:/botan/src/lib/utils/version.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_asn1_alt_name.obj",
+      "src": "c:/botan/src/lib/x509/asn1_alt_name.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_cert_status.obj",
+      "src": "c:/botan/src/lib/x509/cert_status.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_certstor.obj",
+      "src": "c:/botan/src/lib/x509/certstor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_certstor_flatfile.obj",
+      "src": "c:/botan/src/lib/x509/certstor_flatfile/certstor_flatfile.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_certstor_sql.obj",
+      "src": "c:/botan/src/lib/x509/certstor_sql/certstor_sql.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_certstor_system.obj",
+      "src": "c:/botan/src/lib/x509/certstor_system/certstor_system.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_certstor_system_windows_certstor_windows.obj",
+      "src": "c:/botan/src/lib/x509/certstor_system_windows/certstor_windows.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_crl_ent.obj",
+      "src": "c:/botan/src/lib/x509/crl_ent.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_datastor.obj",
+      "src": "c:/botan/src/lib/x509/datastor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_key_constraint.obj",
+      "src": "c:/botan/src/lib/x509/key_constraint.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_name_constraint.obj",
+      "src": "c:/botan/src/lib/x509/name_constraint.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_ocsp.obj",
+      "src": "c:/botan/src/lib/x509/ocsp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_ocsp_types.obj",
+      "src": "c:/botan/src/lib/x509/ocsp_types.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_pkcs10.obj",
+      "src": "c:/botan/src/lib/x509/pkcs10.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_attribute.obj",
+      "src": "c:/botan/src/lib/x509/x509_attribute.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_ca.obj",
+      "src": "c:/botan/src/lib/x509/x509_ca.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_crl.obj",
+      "src": "c:/botan/src/lib/x509/x509_crl.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_dn.obj",
+      "src": "c:/botan/src/lib/x509/x509_dn.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_dn_ub.obj",
+      "src": "c:/botan/src/lib/x509/x509_dn_ub.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_ext.obj",
+      "src": "c:/botan/src/lib/x509/x509_ext.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_obj.obj",
+      "src": "c:/botan/src/lib/x509/x509_obj.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_x509cert.obj",
+      "src": "c:/botan/src/lib/x509/x509cert.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_x509opt.obj",
+      "src": "c:/botan/src/lib/x509/x509opt.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_x509path.obj",
+      "src": "c:/botan/src/lib/x509/x509path.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\lib\\x509_x509self.obj",
+      "src": "c:/botan/src/lib/x509/x509self.cpp"
+    }
+  ],
+  "lib_flags": " /DBOTAN_DLL=__declspec(dllexport)",
+  "lib_link_cmd": "$(LINKER) /DLL",
+  "lib_objs": [
+    "build\\obj\\lib\\asn1_alg_id.obj",
+    "build\\obj\\lib\\asn1_obj.obj",
+    "build\\obj\\lib\\asn1_oid.obj",
+    "build\\obj\\lib\\asn1_print.obj",
+    "build\\obj\\lib\\asn1_str.obj",
+    "build\\obj\\lib\\asn1_time.obj",
+    "build\\obj\\lib\\asn1_ber_dec.obj",
+    "build\\obj\\lib\\asn1_der_enc.obj",
+    "build\\obj\\lib\\asn1_oid_maps.obj",
+    "build\\obj\\lib\\asn1_oids.obj",
+    "build\\obj\\lib\\base_buf_comp.obj",
+    "build\\obj\\lib\\base_scan_name.obj",
+    "build\\obj\\lib\\base_sym_algo.obj",
+    "build\\obj\\lib\\base_symkey.obj",
+    "build\\obj\\lib\\block_aes.obj",
+    "build\\obj\\lib\\block_aes_ni.obj",
+    "build\\obj\\lib\\block_aes_vperm.obj",
+    "build\\obj\\lib\\block_aria.obj",
+    "build\\obj\\lib\\block_cipher.obj",
+    "build\\obj\\lib\\block_blowfish.obj",
+    "build\\obj\\lib\\block_camellia.obj",
+    "build\\obj\\lib\\block_cascade.obj",
+    "build\\obj\\lib\\block_cast128.obj",
+    "build\\obj\\lib\\block_cast256.obj",
+    "build\\obj\\lib\\block_des.obj",
+    "build\\obj\\lib\\block_des_tab.obj",
+    "build\\obj\\lib\\block_des_desx.obj",
+    "build\\obj\\lib\\block_gost_28147.obj",
+    "build\\obj\\lib\\block_idea.obj",
+    "build\\obj\\lib\\block_idea_sse2.obj",
+    "build\\obj\\lib\\block_kasumi.obj",
+    "build\\obj\\lib\\block_lion.obj",
+    "build\\obj\\lib\\block_misty1.obj",
+    "build\\obj\\lib\\block_noekeon.obj",
+    "build\\obj\\lib\\block_noekeon_simd.obj",
+    "build\\obj\\lib\\block_seed.obj",
+    "build\\obj\\lib\\block_serpent.obj",
+    "build\\obj\\lib\\block_serpent_simd.obj",
+    "build\\obj\\lib\\block_shacal2.obj",
+    "build\\obj\\lib\\block_shacal2_simd.obj",
+    "build\\obj\\lib\\block_shacal2_x86.obj",
+    "build\\obj\\lib\\block_sm4.obj",
+    "build\\obj\\lib\\block_threefish_512.obj",
+    "build\\obj\\lib\\block_twofish.obj",
+    "build\\obj\\lib\\block_twofish_tab.obj",
+    "build\\obj\\lib\\block_xtea.obj",
+    "build\\obj\\lib\\codec_base32.obj",
+    "build\\obj\\lib\\codec_base58.obj",
+    "build\\obj\\lib\\codec_base64.obj",
+    "build\\obj\\lib\\codec_hex.obj",
+    "build\\obj\\lib\\compat_sodium_25519.obj",
+    "build\\obj\\lib\\compat_sodium_aead.obj",
+    "build\\obj\\lib\\compat_sodium_auth.obj",
+    "build\\obj\\lib\\compat_sodium_box.obj",
+    "build\\obj\\lib\\compat_sodium_chacha.obj",
+    "build\\obj\\lib\\compat_sodium_salsa.obj",
+    "build\\obj\\lib\\compat_sodium_secretbox.obj",
+    "build\\obj\\lib\\compat_sodium_utils.obj",
+    "build\\obj\\lib\\entropy_srcs.obj",
+    "build\\obj\\lib\\entropy_rdseed.obj",
+    "build\\obj\\lib\\entropy_win32_stats_es_win32.obj",
+    "build\\obj\\lib\\ffi.obj",
+    "build\\obj\\lib\\ffi_block.obj",
+    "build\\obj\\lib\\ffi_cert.obj",
+    "build\\obj\\lib\\ffi_cipher.obj",
+    "build\\obj\\lib\\ffi_fpe.obj",
+    "build\\obj\\lib\\ffi_hash.obj",
+    "build\\obj\\lib\\ffi_hotp.obj",
+    "build\\obj\\lib\\ffi_kdf.obj",
+    "build\\obj\\lib\\ffi_keywrap.obj",
+    "build\\obj\\lib\\ffi_mac.obj",
+    "build\\obj\\lib\\ffi_mp.obj",
+    "build\\obj\\lib\\ffi_pk_op.obj",
+    "build\\obj\\lib\\ffi_pkey.obj",
+    "build\\obj\\lib\\ffi_pkey_algs.obj",
+    "build\\obj\\lib\\ffi_rng.obj",
+    "build\\obj\\lib\\ffi_totp.obj",
+    "build\\obj\\lib\\filters_algo_filt.obj",
+    "build\\obj\\lib\\filters_b64_filt.obj",
+    "build\\obj\\lib\\filters_basefilt.obj",
+    "build\\obj\\lib\\filters_buf_filt.obj",
+    "build\\obj\\lib\\filters_cipher_filter.obj",
+    "build\\obj\\lib\\filters_comp_filter.obj",
+    "build\\obj\\lib\\filters_data_snk.obj",
+    "build\\obj\\lib\\filters_filter.obj",
+    "build\\obj\\lib\\filters_hex_filt.obj",
+    "build\\obj\\lib\\filters_out_buf.obj",
+    "build\\obj\\lib\\filters_pipe.obj",
+    "build\\obj\\lib\\filters_pipe_io.obj",
+    "build\\obj\\lib\\filters_pipe_rw.obj",
+    "build\\obj\\lib\\filters_secqueue.obj",
+    "build\\obj\\lib\\filters_threaded_fork.obj",
+    "build\\obj\\lib\\hash_blake2_blake2b.obj",
+    "build\\obj\\lib\\hash_checksum_adler32.obj",
+    "build\\obj\\lib\\hash_checksum_crc24.obj",
+    "build\\obj\\lib\\hash_checksum_crc32.obj",
+    "build\\obj\\lib\\hash_comb4p.obj",
+    "build\\obj\\lib\\hash_gost_3411.obj",
+    "build\\obj\\lib\\hash.obj",
+    "build\\obj\\lib\\hash_keccak.obj",
+    "build\\obj\\lib\\hash_md4.obj",
+    "build\\obj\\lib\\hash_md5.obj",
+    "build\\obj\\lib\\hash_mdx_hash.obj",
+    "build\\obj\\lib\\hash_par_hash.obj",
+    "build\\obj\\lib\\hash_rmd160.obj",
+    "build\\obj\\lib\\hash_sha1_sha160.obj",
+    "build\\obj\\lib\\hash_sha1_sse2.obj",
+    "build\\obj\\lib\\hash_sha1_x86.obj",
+    "build\\obj\\lib\\hash_sha2_32.obj",
+    "build\\obj\\lib\\hash_sha2_32_sha2_32_x86.obj",
+    "build\\obj\\lib\\hash_sha2_64.obj",
+    "build\\obj\\lib\\hash_sha3.obj",
+    "build\\obj\\lib\\hash_shake.obj",
+    "build\\obj\\lib\\hash_skein_512.obj",
+    "build\\obj\\lib\\hash_sm3.obj",
+    "build\\obj\\lib\\hash_streebog.obj",
+    "build\\obj\\lib\\hash_streebog_precalc.obj",
+    "build\\obj\\lib\\hash_tiger_tig_tab.obj",
+    "build\\obj\\lib\\hash_tiger.obj",
+    "build\\obj\\lib\\hash_whirlpool.obj",
+    "build\\obj\\lib\\hash_whirlpool_whrl_tab.obj",
+    "build\\obj\\lib\\kdf_hkdf.obj",
+    "build\\obj\\lib\\kdf.obj",
+    "build\\obj\\lib\\kdf_kdf1.obj",
+    "build\\obj\\lib\\kdf_kdf1_iso18033.obj",
+    "build\\obj\\lib\\kdf_kdf2.obj",
+    "build\\obj\\lib\\kdf_prf_tls.obj",
+    "build\\obj\\lib\\kdf_prf_x942.obj",
+    "build\\obj\\lib\\kdf_sp800_108.obj",
+    "build\\obj\\lib\\kdf_sp800_56a.obj",
+    "build\\obj\\lib\\kdf_sp800_56c.obj",
+    "build\\obj\\lib\\mac_cbc_mac.obj",
+    "build\\obj\\lib\\mac_cmac.obj",
+    "build\\obj\\lib\\mac_gmac.obj",
+    "build\\obj\\lib\\mac_hmac.obj",
+    "build\\obj\\lib\\mac.obj",
+    "build\\obj\\lib\\mac_poly1305.obj",
+    "build\\obj\\lib\\mac_siphash.obj",
+    "build\\obj\\lib\\mac_x919_mac.obj",
+    "build\\obj\\lib\\math_bigint_big_code.obj",
+    "build\\obj\\lib\\math_bigint_big_io.obj",
+    "build\\obj\\lib\\math_bigint_big_ops2.obj",
+    "build\\obj\\lib\\math_bigint_big_ops3.obj",
+    "build\\obj\\lib\\math_bigint_big_rand.obj",
+    "build\\obj\\lib\\math_bigint.obj",
+    "build\\obj\\lib\\math_bigint_divide.obj",
+    "build\\obj\\lib\\math_mp_comba.obj",
+    "build\\obj\\lib\\math_mp_karat.obj",
+    "build\\obj\\lib\\math_mp_monty.obj",
+    "build\\obj\\lib\\math_mp_monty_n.obj",
+    "build\\obj\\lib\\math_numbertheory_dsa_gen.obj",
+    "build\\obj\\lib\\math_numbertheory_jacobi.obj",
+    "build\\obj\\lib\\math_numbertheory_make_prm.obj",
+    "build\\obj\\lib\\math_numbertheory_mod_inv.obj",
+    "build\\obj\\lib\\math_numbertheory_monty.obj",
+    "build\\obj\\lib\\math_numbertheory_monty_exp.obj",
+    "build\\obj\\lib\\math_numbertheory_mp_numth.obj",
+    "build\\obj\\lib\\math_numbertheory_nistp_redc.obj",
+    "build\\obj\\lib\\math_numbertheory_numthry.obj",
+    "build\\obj\\lib\\math_numbertheory_pow_mod.obj",
+    "build\\obj\\lib\\math_numbertheory_primality.obj",
+    "build\\obj\\lib\\math_numbertheory_primes.obj",
+    "build\\obj\\lib\\math_numbertheory_reducer.obj",
+    "build\\obj\\lib\\math_numbertheory_ressol.obj",
+    "build\\obj\\lib\\misc_aont_package.obj",
+    "build\\obj\\lib\\misc_cryptobox.obj",
+    "build\\obj\\lib\\misc_fpe_fe1.obj",
+    "build\\obj\\lib\\misc_hotp.obj",
+    "build\\obj\\lib\\misc_hotp_totp.obj",
+    "build\\obj\\lib\\misc_nist_keywrap.obj",
+    "build\\obj\\lib\\misc_rfc3394.obj",
+    "build\\obj\\lib\\misc_roughtime.obj",
+    "build\\obj\\lib\\misc_srp6.obj",
+    "build\\obj\\lib\\misc_tss.obj",
+    "build\\obj\\lib\\modes_aead.obj",
+    "build\\obj\\lib\\modes_aead_ccm.obj",
+    "build\\obj\\lib\\modes_aead_chacha20poly1305.obj",
+    "build\\obj\\lib\\modes_aead_eax.obj",
+    "build\\obj\\lib\\modes_aead_gcm.obj",
+    "build\\obj\\lib\\modes_aead_ocb.obj",
+    "build\\obj\\lib\\modes_aead_siv.obj",
+    "build\\obj\\lib\\modes_cbc.obj",
+    "build\\obj\\lib\\modes_cfb.obj",
+    "build\\obj\\lib\\modes_cipher_mode.obj",
+    "build\\obj\\lib\\modes_mode_pad.obj",
+    "build\\obj\\lib\\modes_xts.obj",
+    "build\\obj\\lib\\passhash_bcrypt.obj",
+    "build\\obj\\lib\\passhash_passhash9.obj",
+    "build\\obj\\lib\\pbkdf_argon2.obj",
+    "build\\obj\\lib\\pbkdf_argon2_argon2fmt.obj",
+    "build\\obj\\lib\\pbkdf_argon2_argon2pwhash.obj",
+    "build\\obj\\lib\\pbkdf_bcrypt_pbkdf.obj",
+    "build\\obj\\lib\\pbkdf.obj",
+    "build\\obj\\lib\\pbkdf_pbkdf1.obj",
+    "build\\obj\\lib\\pbkdf_pbkdf2.obj",
+    "build\\obj\\lib\\pbkdf_pgp_s2k.obj",
+    "build\\obj\\lib\\pbkdf_pwdhash.obj",
+    "build\\obj\\lib\\pbkdf_scrypt.obj",
+    "build\\obj\\lib\\pk_pad_eme.obj",
+    "build\\obj\\lib\\pk_pad_eme_oaep_oaep.obj",
+    "build\\obj\\lib\\pk_pad_eme_pkcs1_eme_pkcs.obj",
+    "build\\obj\\lib\\pk_pad_eme_raw.obj",
+    "build\\obj\\lib\\pk_pad_emsa.obj",
+    "build\\obj\\lib\\pk_pad_emsa1.obj",
+    "build\\obj\\lib\\pk_pad_emsa_pkcs1.obj",
+    "build\\obj\\lib\\pk_pad_emsa_pssr_pssr.obj",
+    "build\\obj\\lib\\pk_pad_emsa_raw.obj",
+    "build\\obj\\lib\\pk_pad_emsa_x931.obj",
+    "build\\obj\\lib\\pk_pad_hash_id.obj",
+    "build\\obj\\lib\\pk_pad_iso9796.obj",
+    "build\\obj\\lib\\pk_pad_mgf1.obj",
+    "build\\obj\\lib\\pk_pad_padding.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_ecc_key.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_ecdh.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_ecdsa.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_mechanism.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_module.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_object.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_randomgenerator.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_rsa.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_session.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_slot.obj",
+    "build\\obj\\lib\\prov_pkcs11_p11_x509.obj",
+    "build\\obj\\lib\\psk_db.obj",
+    "build\\obj\\lib\\psk_db_psk_db_sql.obj",
+    "build\\obj\\lib\\pubkey_blinding.obj",
+    "build\\obj\\lib\\pubkey_cecpq1.obj",
+    "build\\obj\\lib\\pubkey_curve25519.obj",
+    "build\\obj\\lib\\pubkey_curve25519_donna.obj",
+    "build\\obj\\lib\\pubkey_dh.obj",
+    "build\\obj\\lib\\pubkey_dl_algo.obj",
+    "build\\obj\\lib\\pubkey_dl_group.obj",
+    "build\\obj\\lib\\pubkey_dl_group_dl_named.obj",
+    "build\\obj\\lib\\pubkey_dlies.obj",
+    "build\\obj\\lib\\pubkey_dsa.obj",
+    "build\\obj\\lib\\pubkey_ec_group_curve_gfp.obj",
+    "build\\obj\\lib\\pubkey_ec_group.obj",
+    "build\\obj\\lib\\pubkey_ec_group_ec_named.obj",
+    "build\\obj\\lib\\pubkey_ec_group_point_gfp.obj",
+    "build\\obj\\lib\\pubkey_ec_group_point_mul.obj",
+    "build\\obj\\lib\\pubkey_ecc_key.obj",
+    "build\\obj\\lib\\pubkey_ecdh.obj",
+    "build\\obj\\lib\\pubkey_ecdsa.obj",
+    "build\\obj\\lib\\pubkey_ecgdsa.obj",
+    "build\\obj\\lib\\pubkey_ecies.obj",
+    "build\\obj\\lib\\pubkey_eckcdsa.obj",
+    "build\\obj\\lib\\pubkey_ed25519.obj",
+    "build\\obj\\lib\\pubkey_ed25519_fe.obj",
+    "build\\obj\\lib\\pubkey_ed25519_key.obj",
+    "build\\obj\\lib\\pubkey_ed25519_ge.obj",
+    "build\\obj\\lib\\pubkey_ed25519_sc_muladd.obj",
+    "build\\obj\\lib\\pubkey_ed25519_sc_reduce.obj",
+    "build\\obj\\lib\\pubkey_elgamal.obj",
+    "build\\obj\\lib\\pubkey_gost_3410.obj",
+    "build\\obj\\lib\\pubkey_keypair.obj",
+    "build\\obj\\lib\\pubkey_mce_code_based_key_gen.obj",
+    "build\\obj\\lib\\pubkey_mce_gf2m_rootfind_dcmp.obj",
+    "build\\obj\\lib\\pubkey_mce_gf2m_small_m.obj",
+    "build\\obj\\lib\\pubkey_mce_goppa_code.obj",
+    "build\\obj\\lib\\pubkey_mce_workfactor.obj",
+    "build\\obj\\lib\\pubkey_mce_mceliece.obj",
+    "build\\obj\\lib\\pubkey_mce_mceliece_key.obj",
+    "build\\obj\\lib\\pubkey_mce_polyn_gf2m.obj",
+    "build\\obj\\lib\\pubkey_mceies.obj",
+    "build\\obj\\lib\\pubkey_newhope.obj",
+    "build\\obj\\lib\\pubkey_pbes2.obj",
+    "build\\obj\\lib\\pubkey_pem.obj",
+    "build\\obj\\lib\\pubkey_pk_algs.obj",
+    "build\\obj\\lib\\pubkey_pk_keys.obj",
+    "build\\obj\\lib\\pubkey_pk_ops.obj",
+    "build\\obj\\lib\\pubkey_pkcs8.obj",
+    "build\\obj\\lib\\pubkey.obj",
+    "build\\obj\\lib\\pubkey_rfc6979.obj",
+    "build\\obj\\lib\\pubkey_rsa.obj",
+    "build\\obj\\lib\\pubkey_sm2.obj",
+    "build\\obj\\lib\\pubkey_sm2_enc.obj",
+    "build\\obj\\lib\\pubkey_workfactor.obj",
+    "build\\obj\\lib\\pubkey_x509_key.obj",
+    "build\\obj\\lib\\pubkey_xmss_common_ops.obj",
+    "build\\obj\\lib\\pubkey_xmss_hash.obj",
+    "build\\obj\\lib\\pubkey_xmss_index_registry.obj",
+    "build\\obj\\lib\\pubkey_xmss_parameters.obj",
+    "build\\obj\\lib\\pubkey_xmss_privatekey.obj",
+    "build\\obj\\lib\\pubkey_xmss_publickey.obj",
+    "build\\obj\\lib\\pubkey_xmss_signature.obj",
+    "build\\obj\\lib\\pubkey_xmss_signature_operation.obj",
+    "build\\obj\\lib\\pubkey_xmss_verification_operation.obj",
+    "build\\obj\\lib\\pubkey_xmss_wots_parameters.obj",
+    "build\\obj\\lib\\pubkey_xmss_wots_privatekey.obj",
+    "build\\obj\\lib\\pubkey_xmss_wots_publickey.obj",
+    "build\\obj\\lib\\rng_auto_rng.obj",
+    "build\\obj\\lib\\rng_chacha_rng.obj",
+    "build\\obj\\lib\\rng_hmac_drbg.obj",
+    "build\\obj\\lib\\rng_processor_rng.obj",
+    "build\\obj\\lib\\rng_rdrand_rng.obj",
+    "build\\obj\\lib\\rng.obj",
+    "build\\obj\\lib\\rng_stateful_rng.obj",
+    "build\\obj\\lib\\rng_system_rng.obj",
+    "build\\obj\\lib\\stream_chacha.obj",
+    "build\\obj\\lib\\stream_chacha_simd32.obj",
+    "build\\obj\\lib\\stream_ctr.obj",
+    "build\\obj\\lib\\stream_ofb.obj",
+    "build\\obj\\lib\\stream_rc4.obj",
+    "build\\obj\\lib\\stream_salsa20.obj",
+    "build\\obj\\lib\\stream_shake_cipher.obj",
+    "build\\obj\\lib\\stream_cipher.obj",
+    "build\\obj\\lib\\tls_credentials_manager.obj",
+    "build\\obj\\lib\\tls_msg_cert_req.obj",
+    "build\\obj\\lib\\tls_msg_cert_status.obj",
+    "build\\obj\\lib\\tls_msg_cert_verify.obj",
+    "build\\obj\\lib\\tls_msg_certificate.obj",
+    "build\\obj\\lib\\tls_msg_client_hello.obj",
+    "build\\obj\\lib\\tls_msg_client_kex.obj",
+    "build\\obj\\lib\\tls_msg_finished.obj",
+    "build\\obj\\lib\\tls_msg_hello_verify.obj",
+    "build\\obj\\lib\\tls_msg_server_hello.obj",
+    "build\\obj\\lib\\tls_msg_server_kex.obj",
+    "build\\obj\\lib\\tls_msg_session_ticket.obj",
+    "build\\obj\\lib\\tls_sessions_sql_tls_session_manager_sql.obj",
+    "build\\obj\\lib\\tls_alert.obj",
+    "build\\obj\\lib\\tls_algos.obj",
+    "build\\obj\\lib\\tls_blocking.obj",
+    "build\\obj\\lib\\tls_callbacks.obj",
+    "build\\obj\\lib\\tls_cbc.obj",
+    "build\\obj\\lib\\tls_channel.obj",
+    "build\\obj\\lib\\tls_ciphersuite.obj",
+    "build\\obj\\lib\\tls_client.obj",
+    "build\\obj\\lib\\tls_extensions.obj",
+    "build\\obj\\lib\\tls_handshake_hash.obj",
+    "build\\obj\\lib\\tls_handshake_io.obj",
+    "build\\obj\\lib\\tls_handshake_state.obj",
+    "build\\obj\\lib\\tls_policy.obj",
+    "build\\obj\\lib\\tls_record.obj",
+    "build\\obj\\lib\\tls_server.obj",
+    "build\\obj\\lib\\tls_session.obj",
+    "build\\obj\\lib\\tls_session_key.obj",
+    "build\\obj\\lib\\tls_session_manager_memory.obj",
+    "build\\obj\\lib\\tls_suite_info.obj",
+    "build\\obj\\lib\\tls_text_policy.obj",
+    "build\\obj\\lib\\tls_version.obj",
+    "build\\obj\\lib\\utils_assert.obj",
+    "build\\obj\\lib\\utils_calendar.obj",
+    "build\\obj\\lib\\utils_charset.obj",
+    "build\\obj\\lib\\utils_cpuid.obj",
+    "build\\obj\\lib\\utils_cpuid_arm.obj",
+    "build\\obj\\lib\\utils_cpuid_ppc.obj",
+    "build\\obj\\lib\\utils_cpuid_x86.obj",
+    "build\\obj\\lib\\utils_ct_utils.obj",
+    "build\\obj\\lib\\utils_data_src.obj",
+    "build\\obj\\lib\\utils_dyn_load.obj",
+    "build\\obj\\lib\\utils_exceptn.obj",
+    "build\\obj\\lib\\utils_filesystem.obj",
+    "build\\obj\\lib\\utils_ghash.obj",
+    "build\\obj\\lib\\utils_ghash_cpu.obj",
+    "build\\obj\\lib\\utils_ghash_vperm.obj",
+    "build\\obj\\lib\\utils_http_util.obj",
+    "build\\obj\\lib\\utils_locking_allocator.obj",
+    "build\\obj\\lib\\utils_mem_ops.obj",
+    "build\\obj\\lib\\utils_mem_pool.obj",
+    "build\\obj\\lib\\utils_os_utils.obj",
+    "build\\obj\\lib\\utils_parsing.obj",
+    "build\\obj\\lib\\utils_poly_dbl.obj",
+    "build\\obj\\lib\\utils_read_cfg.obj",
+    "build\\obj\\lib\\utils_read_kv.obj",
+    "build\\obj\\lib\\utils_socket.obj",
+    "build\\obj\\lib\\utils_socket_udp.obj",
+    "build\\obj\\lib\\utils_socket_uri.obj",
+    "build\\obj\\lib\\utils_thread_utils_barrier.obj",
+    "build\\obj\\lib\\utils_thread_utils_rwlock.obj",
+    "build\\obj\\lib\\utils_thread_utils_semaphore.obj",
+    "build\\obj\\lib\\utils_thread_utils_thread_pool.obj",
+    "build\\obj\\lib\\utils_timer.obj",
+    "build\\obj\\lib\\utils_uuid.obj",
+    "build\\obj\\lib\\utils_version.obj",
+    "build\\obj\\lib\\x509_asn1_alt_name.obj",
+    "build\\obj\\lib\\x509_cert_status.obj",
+    "build\\obj\\lib\\x509_certstor.obj",
+    "build\\obj\\lib\\x509_certstor_flatfile.obj",
+    "build\\obj\\lib\\x509_certstor_sql.obj",
+    "build\\obj\\lib\\x509_certstor_system.obj",
+    "build\\obj\\lib\\x509_certstor_system_windows_certstor_windows.obj",
+    "build\\obj\\lib\\x509_crl_ent.obj",
+    "build\\obj\\lib\\x509_datastor.obj",
+    "build\\obj\\lib\\x509_key_constraint.obj",
+    "build\\obj\\lib\\x509_name_constraint.obj",
+    "build\\obj\\lib\\x509_ocsp.obj",
+    "build\\obj\\lib\\x509_ocsp_types.obj",
+    "build\\obj\\lib\\x509_pkcs10.obj",
+    "build\\obj\\lib\\x509_attribute.obj",
+    "build\\obj\\lib\\x509_ca.obj",
+    "build\\obj\\lib\\x509_crl.obj",
+    "build\\obj\\lib\\x509_dn.obj",
+    "build\\obj\\lib\\x509_dn_ub.obj",
+    "build\\obj\\lib\\x509_ext.obj",
+    "build\\obj\\lib\\x509_obj.obj",
+    "build\\obj\\lib\\x509_x509cert.obj",
+    "build\\obj\\lib\\x509_x509opt.obj",
+    "build\\obj\\lib\\x509_x509path.obj",
+    "build\\obj\\lib\\x509_x509self.obj"
+  ],
+  "lib_prefix": "",
+  "lib_srcs": [
+    "c:/botan/src/lib/asn1/alg_id.cpp",
+    "c:/botan/src/lib/asn1/asn1_obj.cpp",
+    "c:/botan/src/lib/asn1/asn1_oid.cpp",
+    "c:/botan/src/lib/asn1/asn1_print.cpp",
+    "c:/botan/src/lib/asn1/asn1_str.cpp",
+    "c:/botan/src/lib/asn1/asn1_time.cpp",
+    "c:/botan/src/lib/asn1/ber_dec.cpp",
+    "c:/botan/src/lib/asn1/der_enc.cpp",
+    "c:/botan/src/lib/asn1/oid_maps.cpp",
+    "c:/botan/src/lib/asn1/oids.cpp",
+    "c:/botan/src/lib/base/buf_comp.cpp",
+    "c:/botan/src/lib/base/scan_name.cpp",
+    "c:/botan/src/lib/base/sym_algo.cpp",
+    "c:/botan/src/lib/base/symkey.cpp",
+    "c:/botan/src/lib/block/aes/aes.cpp",
+    "c:/botan/src/lib/block/aes/aes_ni/aes_ni.cpp",
+    "c:/botan/src/lib/block/aes/aes_vperm/aes_vperm.cpp",
+    "c:/botan/src/lib/block/aria/aria.cpp",
+    "c:/botan/src/lib/block/block_cipher.cpp",
+    "c:/botan/src/lib/block/blowfish/blowfish.cpp",
+    "c:/botan/src/lib/block/camellia/camellia.cpp",
+    "c:/botan/src/lib/block/cascade/cascade.cpp",
+    "c:/botan/src/lib/block/cast128/cast128.cpp",
+    "c:/botan/src/lib/block/cast256/cast256.cpp",
+    "c:/botan/src/lib/block/des/des.cpp",
+    "c:/botan/src/lib/block/des/des_tab.cpp",
+    "c:/botan/src/lib/block/des/desx.cpp",
+    "c:/botan/src/lib/block/gost_28147/gost_28147.cpp",
+    "c:/botan/src/lib/block/idea/idea.cpp",
+    "c:/botan/src/lib/block/idea/idea_sse2/idea_sse2.cpp",
+    "c:/botan/src/lib/block/kasumi/kasumi.cpp",
+    "c:/botan/src/lib/block/lion/lion.cpp",
+    "c:/botan/src/lib/block/misty1/misty1.cpp",
+    "c:/botan/src/lib/block/noekeon/noekeon.cpp",
+    "c:/botan/src/lib/block/noekeon/noekeon_simd/noekeon_simd.cpp",
+    "c:/botan/src/lib/block/seed/seed.cpp",
+    "c:/botan/src/lib/block/serpent/serpent.cpp",
+    "c:/botan/src/lib/block/serpent/serpent_simd/serpent_simd.cpp",
+    "c:/botan/src/lib/block/shacal2/shacal2.cpp",
+    "c:/botan/src/lib/block/shacal2/shacal2_simd/shacal2_simd.cpp",
+    "c:/botan/src/lib/block/shacal2/shacal2_x86/shacal2_x86.cpp",
+    "c:/botan/src/lib/block/sm4/sm4.cpp",
+    "c:/botan/src/lib/block/threefish_512/threefish_512.cpp",
+    "c:/botan/src/lib/block/twofish/twofish.cpp",
+    "c:/botan/src/lib/block/twofish/twofish_tab.cpp",
+    "c:/botan/src/lib/block/xtea/xtea.cpp",
+    "c:/botan/src/lib/codec/base32/base32.cpp",
+    "c:/botan/src/lib/codec/base58/base58.cpp",
+    "c:/botan/src/lib/codec/base64/base64.cpp",
+    "c:/botan/src/lib/codec/hex/hex.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_25519.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_aead.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_auth.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_box.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_chacha.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_salsa.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_secretbox.cpp",
+    "c:/botan/src/lib/compat/sodium/sodium_utils.cpp",
+    "c:/botan/src/lib/entropy/entropy_srcs.cpp",
+    "c:/botan/src/lib/entropy/rdseed/rdseed.cpp",
+    "c:/botan/src/lib/entropy/win32_stats/es_win32.cpp",
+    "c:/botan/src/lib/ffi/ffi.cpp",
+    "c:/botan/src/lib/ffi/ffi_block.cpp",
+    "c:/botan/src/lib/ffi/ffi_cert.cpp",
+    "c:/botan/src/lib/ffi/ffi_cipher.cpp",
+    "c:/botan/src/lib/ffi/ffi_fpe.cpp",
+    "c:/botan/src/lib/ffi/ffi_hash.cpp",
+    "c:/botan/src/lib/ffi/ffi_hotp.cpp",
+    "c:/botan/src/lib/ffi/ffi_kdf.cpp",
+    "c:/botan/src/lib/ffi/ffi_keywrap.cpp",
+    "c:/botan/src/lib/ffi/ffi_mac.cpp",
+    "c:/botan/src/lib/ffi/ffi_mp.cpp",
+    "c:/botan/src/lib/ffi/ffi_pk_op.cpp",
+    "c:/botan/src/lib/ffi/ffi_pkey.cpp",
+    "c:/botan/src/lib/ffi/ffi_pkey_algs.cpp",
+    "c:/botan/src/lib/ffi/ffi_rng.cpp",
+    "c:/botan/src/lib/ffi/ffi_totp.cpp",
+    "c:/botan/src/lib/filters/algo_filt.cpp",
+    "c:/botan/src/lib/filters/b64_filt.cpp",
+    "c:/botan/src/lib/filters/basefilt.cpp",
+    "c:/botan/src/lib/filters/buf_filt.cpp",
+    "c:/botan/src/lib/filters/cipher_filter.cpp",
+    "c:/botan/src/lib/filters/comp_filter.cpp",
+    "c:/botan/src/lib/filters/data_snk.cpp",
+    "c:/botan/src/lib/filters/filter.cpp",
+    "c:/botan/src/lib/filters/hex_filt.cpp",
+    "c:/botan/src/lib/filters/out_buf.cpp",
+    "c:/botan/src/lib/filters/pipe.cpp",
+    "c:/botan/src/lib/filters/pipe_io.cpp",
+    "c:/botan/src/lib/filters/pipe_rw.cpp",
+    "c:/botan/src/lib/filters/secqueue.cpp",
+    "c:/botan/src/lib/filters/threaded_fork.cpp",
+    "c:/botan/src/lib/hash/blake2/blake2b.cpp",
+    "c:/botan/src/lib/hash/checksum/adler32/adler32.cpp",
+    "c:/botan/src/lib/hash/checksum/crc24/crc24.cpp",
+    "c:/botan/src/lib/hash/checksum/crc32/crc32.cpp",
+    "c:/botan/src/lib/hash/comb4p/comb4p.cpp",
+    "c:/botan/src/lib/hash/gost_3411/gost_3411.cpp",
+    "c:/botan/src/lib/hash/hash.cpp",
+    "c:/botan/src/lib/hash/keccak/keccak.cpp",
+    "c:/botan/src/lib/hash/md4/md4.cpp",
+    "c:/botan/src/lib/hash/md5/md5.cpp",
+    "c:/botan/src/lib/hash/mdx_hash/mdx_hash.cpp",
+    "c:/botan/src/lib/hash/par_hash/par_hash.cpp",
+    "c:/botan/src/lib/hash/rmd160/rmd160.cpp",
+    "c:/botan/src/lib/hash/sha1/sha160.cpp",
+    "c:/botan/src/lib/hash/sha1/sha1_sse2/sha1_sse2.cpp",
+    "c:/botan/src/lib/hash/sha1/sha1_x86/sha1_x86.cpp",
+    "c:/botan/src/lib/hash/sha2_32/sha2_32.cpp",
+    "c:/botan/src/lib/hash/sha2_32/sha2_32_x86/sha2_32_x86.cpp",
+    "c:/botan/src/lib/hash/sha2_64/sha2_64.cpp",
+    "c:/botan/src/lib/hash/sha3/sha3.cpp",
+    "c:/botan/src/lib/hash/shake/shake.cpp",
+    "c:/botan/src/lib/hash/skein/skein_512.cpp",
+    "c:/botan/src/lib/hash/sm3/sm3.cpp",
+    "c:/botan/src/lib/hash/streebog/streebog.cpp",
+    "c:/botan/src/lib/hash/streebog/streebog_precalc.cpp",
+    "c:/botan/src/lib/hash/tiger/tig_tab.cpp",
+    "c:/botan/src/lib/hash/tiger/tiger.cpp",
+    "c:/botan/src/lib/hash/whirlpool/whirlpool.cpp",
+    "c:/botan/src/lib/hash/whirlpool/whrl_tab.cpp",
+    "c:/botan/src/lib/kdf/hkdf/hkdf.cpp",
+    "c:/botan/src/lib/kdf/kdf.cpp",
+    "c:/botan/src/lib/kdf/kdf1/kdf1.cpp",
+    "c:/botan/src/lib/kdf/kdf1_iso18033/kdf1_iso18033.cpp",
+    "c:/botan/src/lib/kdf/kdf2/kdf2.cpp",
+    "c:/botan/src/lib/kdf/prf_tls/prf_tls.cpp",
+    "c:/botan/src/lib/kdf/prf_x942/prf_x942.cpp",
+    "c:/botan/src/lib/kdf/sp800_108/sp800_108.cpp",
+    "c:/botan/src/lib/kdf/sp800_56a/sp800_56a.cpp",
+    "c:/botan/src/lib/kdf/sp800_56c/sp800_56c.cpp",
+    "c:/botan/src/lib/mac/cbc_mac/cbc_mac.cpp",
+    "c:/botan/src/lib/mac/cmac/cmac.cpp",
+    "c:/botan/src/lib/mac/gmac/gmac.cpp",
+    "c:/botan/src/lib/mac/hmac/hmac.cpp",
+    "c:/botan/src/lib/mac/mac.cpp",
+    "c:/botan/src/lib/mac/poly1305/poly1305.cpp",
+    "c:/botan/src/lib/mac/siphash/siphash.cpp",
+    "c:/botan/src/lib/mac/x919_mac/x919_mac.cpp",
+    "c:/botan/src/lib/math/bigint/big_code.cpp",
+    "c:/botan/src/lib/math/bigint/big_io.cpp",
+    "c:/botan/src/lib/math/bigint/big_ops2.cpp",
+    "c:/botan/src/lib/math/bigint/big_ops3.cpp",
+    "c:/botan/src/lib/math/bigint/big_rand.cpp",
+    "c:/botan/src/lib/math/bigint/bigint.cpp",
+    "c:/botan/src/lib/math/bigint/divide.cpp",
+    "c:/botan/src/lib/math/mp/mp_comba.cpp",
+    "c:/botan/src/lib/math/mp/mp_karat.cpp",
+    "c:/botan/src/lib/math/mp/mp_monty.cpp",
+    "c:/botan/src/lib/math/mp/mp_monty_n.cpp",
+    "c:/botan/src/lib/math/numbertheory/dsa_gen.cpp",
+    "c:/botan/src/lib/math/numbertheory/jacobi.cpp",
+    "c:/botan/src/lib/math/numbertheory/make_prm.cpp",
+    "c:/botan/src/lib/math/numbertheory/mod_inv.cpp",
+    "c:/botan/src/lib/math/numbertheory/monty.cpp",
+    "c:/botan/src/lib/math/numbertheory/monty_exp.cpp",
+    "c:/botan/src/lib/math/numbertheory/mp_numth.cpp",
+    "c:/botan/src/lib/math/numbertheory/nistp_redc.cpp",
+    "c:/botan/src/lib/math/numbertheory/numthry.cpp",
+    "c:/botan/src/lib/math/numbertheory/pow_mod.cpp",
+    "c:/botan/src/lib/math/numbertheory/primality.cpp",
+    "c:/botan/src/lib/math/numbertheory/primes.cpp",
+    "c:/botan/src/lib/math/numbertheory/reducer.cpp",
+    "c:/botan/src/lib/math/numbertheory/ressol.cpp",
+    "c:/botan/src/lib/misc/aont/package.cpp",
+    "c:/botan/src/lib/misc/cryptobox/cryptobox.cpp",
+    "c:/botan/src/lib/misc/fpe_fe1/fpe_fe1.cpp",
+    "c:/botan/src/lib/misc/hotp/hotp.cpp",
+    "c:/botan/src/lib/misc/hotp/totp.cpp",
+    "c:/botan/src/lib/misc/nist_keywrap/nist_keywrap.cpp",
+    "c:/botan/src/lib/misc/rfc3394/rfc3394.cpp",
+    "c:/botan/src/lib/misc/roughtime/roughtime.cpp",
+    "c:/botan/src/lib/misc/srp6/srp6.cpp",
+    "c:/botan/src/lib/misc/tss/tss.cpp",
+    "c:/botan/src/lib/modes/aead/aead.cpp",
+    "c:/botan/src/lib/modes/aead/ccm/ccm.cpp",
+    "c:/botan/src/lib/modes/aead/chacha20poly1305/chacha20poly1305.cpp",
+    "c:/botan/src/lib/modes/aead/eax/eax.cpp",
+    "c:/botan/src/lib/modes/aead/gcm/gcm.cpp",
+    "c:/botan/src/lib/modes/aead/ocb/ocb.cpp",
+    "c:/botan/src/lib/modes/aead/siv/siv.cpp",
+    "c:/botan/src/lib/modes/cbc/cbc.cpp",
+    "c:/botan/src/lib/modes/cfb/cfb.cpp",
+    "c:/botan/src/lib/modes/cipher_mode.cpp",
+    "c:/botan/src/lib/modes/mode_pad/mode_pad.cpp",
+    "c:/botan/src/lib/modes/xts/xts.cpp",
+    "c:/botan/src/lib/passhash/bcrypt/bcrypt.cpp",
+    "c:/botan/src/lib/passhash/passhash9/passhash9.cpp",
+    "c:/botan/src/lib/pbkdf/argon2/argon2.cpp",
+    "c:/botan/src/lib/pbkdf/argon2/argon2fmt.cpp",
+    "c:/botan/src/lib/pbkdf/argon2/argon2pwhash.cpp",
+    "c:/botan/src/lib/pbkdf/bcrypt_pbkdf/bcrypt_pbkdf.cpp",
+    "c:/botan/src/lib/pbkdf/pbkdf.cpp",
+    "c:/botan/src/lib/pbkdf/pbkdf1/pbkdf1.cpp",
+    "c:/botan/src/lib/pbkdf/pbkdf2/pbkdf2.cpp",
+    "c:/botan/src/lib/pbkdf/pgp_s2k/pgp_s2k.cpp",
+    "c:/botan/src/lib/pbkdf/pwdhash.cpp",
+    "c:/botan/src/lib/pbkdf/scrypt/scrypt.cpp",
+    "c:/botan/src/lib/pk_pad/eme.cpp",
+    "c:/botan/src/lib/pk_pad/eme_oaep/oaep.cpp",
+    "c:/botan/src/lib/pk_pad/eme_pkcs1/eme_pkcs.cpp",
+    "c:/botan/src/lib/pk_pad/eme_raw/eme_raw.cpp",
+    "c:/botan/src/lib/pk_pad/emsa.cpp",
+    "c:/botan/src/lib/pk_pad/emsa1/emsa1.cpp",
+    "c:/botan/src/lib/pk_pad/emsa_pkcs1/emsa_pkcs1.cpp",
+    "c:/botan/src/lib/pk_pad/emsa_pssr/pssr.cpp",
+    "c:/botan/src/lib/pk_pad/emsa_raw/emsa_raw.cpp",
+    "c:/botan/src/lib/pk_pad/emsa_x931/emsa_x931.cpp",
+    "c:/botan/src/lib/pk_pad/hash_id/hash_id.cpp",
+    "c:/botan/src/lib/pk_pad/iso9796/iso9796.cpp",
+    "c:/botan/src/lib/pk_pad/mgf1/mgf1.cpp",
+    "c:/botan/src/lib/pk_pad/padding.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_ecc_key.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_ecdh.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_ecdsa.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_mechanism.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_module.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_object.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_randomgenerator.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_rsa.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_session.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_slot.cpp",
+    "c:/botan/src/lib/prov/pkcs11/p11_x509.cpp",
+    "c:/botan/src/lib/psk_db/psk_db.cpp",
+    "c:/botan/src/lib/psk_db/psk_db_sql.cpp",
+    "c:/botan/src/lib/pubkey/blinding.cpp",
+    "c:/botan/src/lib/pubkey/cecpq1/cecpq1.cpp",
+    "c:/botan/src/lib/pubkey/curve25519/curve25519.cpp",
+    "c:/botan/src/lib/pubkey/curve25519/donna.cpp",
+    "c:/botan/src/lib/pubkey/dh/dh.cpp",
+    "c:/botan/src/lib/pubkey/dl_algo/dl_algo.cpp",
+    "c:/botan/src/lib/pubkey/dl_group/dl_group.cpp",
+    "c:/botan/src/lib/pubkey/dl_group/dl_named.cpp",
+    "c:/botan/src/lib/pubkey/dlies/dlies.cpp",
+    "c:/botan/src/lib/pubkey/dsa/dsa.cpp",
+    "c:/botan/src/lib/pubkey/ec_group/curve_gfp.cpp",
+    "c:/botan/src/lib/pubkey/ec_group/ec_group.cpp",
+    "c:/botan/src/lib/pubkey/ec_group/ec_named.cpp",
+    "c:/botan/src/lib/pubkey/ec_group/point_gfp.cpp",
+    "c:/botan/src/lib/pubkey/ec_group/point_mul.cpp",
+    "c:/botan/src/lib/pubkey/ecc_key/ecc_key.cpp",
+    "c:/botan/src/lib/pubkey/ecdh/ecdh.cpp",
+    "c:/botan/src/lib/pubkey/ecdsa/ecdsa.cpp",
+    "c:/botan/src/lib/pubkey/ecgdsa/ecgdsa.cpp",
+    "c:/botan/src/lib/pubkey/ecies/ecies.cpp",
+    "c:/botan/src/lib/pubkey/eckcdsa/eckcdsa.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/ed25519.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/ed25519_fe.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/ed25519_key.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/ge.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/sc_muladd.cpp",
+    "c:/botan/src/lib/pubkey/ed25519/sc_reduce.cpp",
+    "c:/botan/src/lib/pubkey/elgamal/elgamal.cpp",
+    "c:/botan/src/lib/pubkey/gost_3410/gost_3410.cpp",
+    "c:/botan/src/lib/pubkey/keypair/keypair.cpp",
+    "c:/botan/src/lib/pubkey/mce/code_based_key_gen.cpp",
+    "c:/botan/src/lib/pubkey/mce/gf2m_rootfind_dcmp.cpp",
+    "c:/botan/src/lib/pubkey/mce/gf2m_small_m.cpp",
+    "c:/botan/src/lib/pubkey/mce/goppa_code.cpp",
+    "c:/botan/src/lib/pubkey/mce/mce_workfactor.cpp",
+    "c:/botan/src/lib/pubkey/mce/mceliece.cpp",
+    "c:/botan/src/lib/pubkey/mce/mceliece_key.cpp",
+    "c:/botan/src/lib/pubkey/mce/polyn_gf2m.cpp",
+    "c:/botan/src/lib/pubkey/mceies/mceies.cpp",
+    "c:/botan/src/lib/pubkey/newhope/newhope.cpp",
+    "c:/botan/src/lib/pubkey/pbes2/pbes2.cpp",
+    "c:/botan/src/lib/pubkey/pem/pem.cpp",
+    "c:/botan/src/lib/pubkey/pk_algs.cpp",
+    "c:/botan/src/lib/pubkey/pk_keys.cpp",
+    "c:/botan/src/lib/pubkey/pk_ops.cpp",
+    "c:/botan/src/lib/pubkey/pkcs8.cpp",
+    "c:/botan/src/lib/pubkey/pubkey.cpp",
+    "c:/botan/src/lib/pubkey/rfc6979/rfc6979.cpp",
+    "c:/botan/src/lib/pubkey/rsa/rsa.cpp",
+    "c:/botan/src/lib/pubkey/sm2/sm2.cpp",
+    "c:/botan/src/lib/pubkey/sm2/sm2_enc.cpp",
+    "c:/botan/src/lib/pubkey/workfactor.cpp",
+    "c:/botan/src/lib/pubkey/x509_key.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_common_ops.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_hash.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_index_registry.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_parameters.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_privatekey.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_publickey.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_signature.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_signature_operation.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_verification_operation.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_wots_parameters.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_wots_privatekey.cpp",
+    "c:/botan/src/lib/pubkey/xmss/xmss_wots_publickey.cpp",
+    "c:/botan/src/lib/rng/auto_rng/auto_rng.cpp",
+    "c:/botan/src/lib/rng/chacha_rng/chacha_rng.cpp",
+    "c:/botan/src/lib/rng/hmac_drbg/hmac_drbg.cpp",
+    "c:/botan/src/lib/rng/processor_rng/processor_rng.cpp",
+    "c:/botan/src/lib/rng/rdrand_rng/rdrand_rng.cpp",
+    "c:/botan/src/lib/rng/rng.cpp",
+    "c:/botan/src/lib/rng/stateful_rng/stateful_rng.cpp",
+    "c:/botan/src/lib/rng/system_rng/system_rng.cpp",
+    "c:/botan/src/lib/stream/chacha/chacha.cpp",
+    "c:/botan/src/lib/stream/chacha/chacha_simd32/chacha_simd32.cpp",
+    "c:/botan/src/lib/stream/ctr/ctr.cpp",
+    "c:/botan/src/lib/stream/ofb/ofb.cpp",
+    "c:/botan/src/lib/stream/rc4/rc4.cpp",
+    "c:/botan/src/lib/stream/salsa20/salsa20.cpp",
+    "c:/botan/src/lib/stream/shake_cipher/shake_cipher.cpp",
+    "c:/botan/src/lib/stream/stream_cipher.cpp",
+    "c:/botan/src/lib/tls/credentials_manager.cpp",
+    "c:/botan/src/lib/tls/msg_cert_req.cpp",
+    "c:/botan/src/lib/tls/msg_cert_status.cpp",
+    "c:/botan/src/lib/tls/msg_cert_verify.cpp",
+    "c:/botan/src/lib/tls/msg_certificate.cpp",
+    "c:/botan/src/lib/tls/msg_client_hello.cpp",
+    "c:/botan/src/lib/tls/msg_client_kex.cpp",
+    "c:/botan/src/lib/tls/msg_finished.cpp",
+    "c:/botan/src/lib/tls/msg_hello_verify.cpp",
+    "c:/botan/src/lib/tls/msg_server_hello.cpp",
+    "c:/botan/src/lib/tls/msg_server_kex.cpp",
+    "c:/botan/src/lib/tls/msg_session_ticket.cpp",
+    "c:/botan/src/lib/tls/sessions_sql/tls_session_manager_sql.cpp",
+    "c:/botan/src/lib/tls/tls_alert.cpp",
+    "c:/botan/src/lib/tls/tls_algos.cpp",
+    "c:/botan/src/lib/tls/tls_blocking.cpp",
+    "c:/botan/src/lib/tls/tls_callbacks.cpp",
+    "c:/botan/src/lib/tls/tls_cbc/tls_cbc.cpp",
+    "c:/botan/src/lib/tls/tls_channel.cpp",
+    "c:/botan/src/lib/tls/tls_ciphersuite.cpp",
+    "c:/botan/src/lib/tls/tls_client.cpp",
+    "c:/botan/src/lib/tls/tls_extensions.cpp",
+    "c:/botan/src/lib/tls/tls_handshake_hash.cpp",
+    "c:/botan/src/lib/tls/tls_handshake_io.cpp",
+    "c:/botan/src/lib/tls/tls_handshake_state.cpp",
+    "c:/botan/src/lib/tls/tls_policy.cpp",
+    "c:/botan/src/lib/tls/tls_record.cpp",
+    "c:/botan/src/lib/tls/tls_server.cpp",
+    "c:/botan/src/lib/tls/tls_session.cpp",
+    "c:/botan/src/lib/tls/tls_session_key.cpp",
+    "c:/botan/src/lib/tls/tls_session_manager_memory.cpp",
+    "c:/botan/src/lib/tls/tls_suite_info.cpp",
+    "c:/botan/src/lib/tls/tls_text_policy.cpp",
+    "c:/botan/src/lib/tls/tls_version.cpp",
+    "c:/botan/src/lib/utils/assert.cpp",
+    "c:/botan/src/lib/utils/calendar.cpp",
+    "c:/botan/src/lib/utils/charset.cpp",
+    "c:/botan/src/lib/utils/cpuid/cpuid.cpp",
+    "c:/botan/src/lib/utils/cpuid/cpuid_arm.cpp",
+    "c:/botan/src/lib/utils/cpuid/cpuid_ppc.cpp",
+    "c:/botan/src/lib/utils/cpuid/cpuid_x86.cpp",
+    "c:/botan/src/lib/utils/ct_utils.cpp",
+    "c:/botan/src/lib/utils/data_src.cpp",
+    "c:/botan/src/lib/utils/dyn_load/dyn_load.cpp",
+    "c:/botan/src/lib/utils/exceptn.cpp",
+    "c:/botan/src/lib/utils/filesystem.cpp",
+    "c:/botan/src/lib/utils/ghash/ghash.cpp",
+    "c:/botan/src/lib/utils/ghash/ghash_cpu/ghash_cpu.cpp",
+    "c:/botan/src/lib/utils/ghash/ghash_vperm/ghash_vperm.cpp",
+    "c:/botan/src/lib/utils/http_util/http_util.cpp",
+    "c:/botan/src/lib/utils/locking_allocator/locking_allocator.cpp",
+    "c:/botan/src/lib/utils/mem_ops.cpp",
+    "c:/botan/src/lib/utils/mem_pool/mem_pool.cpp",
+    "c:/botan/src/lib/utils/os_utils.cpp",
+    "c:/botan/src/lib/utils/parsing.cpp",
+    "c:/botan/src/lib/utils/poly_dbl/poly_dbl.cpp",
+    "c:/botan/src/lib/utils/read_cfg.cpp",
+    "c:/botan/src/lib/utils/read_kv.cpp",
+    "c:/botan/src/lib/utils/socket/socket.cpp",
+    "c:/botan/src/lib/utils/socket/socket_udp.cpp",
+    "c:/botan/src/lib/utils/socket/uri.cpp",
+    "c:/botan/src/lib/utils/thread_utils/barrier.cpp",
+    "c:/botan/src/lib/utils/thread_utils/rwlock.cpp",
+    "c:/botan/src/lib/utils/thread_utils/semaphore.cpp",
+    "c:/botan/src/lib/utils/thread_utils/thread_pool.cpp",
+    "c:/botan/src/lib/utils/timer.cpp",
+    "c:/botan/src/lib/utils/uuid/uuid.cpp",
+    "c:/botan/src/lib/utils/version.cpp",
+    "c:/botan/src/lib/x509/asn1_alt_name.cpp",
+    "c:/botan/src/lib/x509/cert_status.cpp",
+    "c:/botan/src/lib/x509/certstor.cpp",
+    "c:/botan/src/lib/x509/certstor_flatfile/certstor_flatfile.cpp",
+    "c:/botan/src/lib/x509/certstor_sql/certstor_sql.cpp",
+    "c:/botan/src/lib/x509/certstor_system/certstor_system.cpp",
+    "c:/botan/src/lib/x509/certstor_system_windows/certstor_windows.cpp",
+    "c:/botan/src/lib/x509/crl_ent.cpp",
+    "c:/botan/src/lib/x509/datastor.cpp",
+    "c:/botan/src/lib/x509/key_constraint.cpp",
+    "c:/botan/src/lib/x509/name_constraint.cpp",
+    "c:/botan/src/lib/x509/ocsp.cpp",
+    "c:/botan/src/lib/x509/ocsp_types.cpp",
+    "c:/botan/src/lib/x509/pkcs10.cpp",
+    "c:/botan/src/lib/x509/x509_attribute.cpp",
+    "c:/botan/src/lib/x509/x509_ca.cpp",
+    "c:/botan/src/lib/x509/x509_crl.cpp",
+    "c:/botan/src/lib/x509/x509_dn.cpp",
+    "c:/botan/src/lib/x509/x509_dn_ub.cpp",
+    "c:/botan/src/lib/x509/x509_ext.cpp",
+    "c:/botan/src/lib/x509/x509_obj.cpp",
+    "c:/botan/src/lib/x509/x509cert.cpp",
+    "c:/botan/src/lib/x509/x509opt.cpp",
+    "c:/botan/src/lib/x509/x509path.cpp",
+    "c:/botan/src/lib/x509/x509self.cpp"
+  ],
+  "lib_suffix": "",
+  "libdir": "c:\\Botan\\lib",
+  "libname": "botan",
+  "libobj_dir": "build\\obj\\lib",
+  "library_targets": ".\\botan.dll",
+  "libs_used": [
+    "crypt32",
+    "user32",
+    "ws2_32"
+  ],
+  "link_to": "crypt32.lib user32.lib ws2_32.lib",
+  "link_to_botan": ".\\botan.lib",
+  "linker": "link",
+  "local_config": "",
+  "macos_so_compat_ver": "2018.18.0",
+  "macos_so_current_ver": "2018.18.1",
+  "maintainer_mode": false,
+  "make_supports_phony": false,
+  "makefile_path": "build\\..\\Makefile",
+  "mandir": "share/man",
+  "mod_list": [
+    "adler32",
+    "aead",
+    "aes",
+    "aes_ni",
+    "aes_vperm",
+    "aont",
+    "argon2",
+    "aria",
+    "asn1",
+    "auto_rng",
+    "base",
+    "base32",
+    "base58",
+    "base64",
+    "bcrypt",
+    "bcrypt_pbkdf",
+    "bigint",
+    "blake2",
+    "block",
+    "blowfish",
+    "camellia",
+    "cascade",
+    "cast128",
+    "cast256",
+    "cbc",
+    "cbc_mac",
+    "ccm",
+    "cecpq1",
+    "certstor_flatfile",
+    "certstor_sql",
+    "certstor_system",
+    "certstor_system_windows",
+    "cfb",
+    "chacha",
+    "chacha20poly1305",
+    "chacha_rng",
+    "chacha_simd32",
+    "checksum",
+    "cmac",
+    "comb4p",
+    "cpuid",
+    "crc24",
+    "crc32",
+    "cryptobox",
+    "ctr",
+    "curve25519",
+    "des",
+    "dh",
+    "dl_algo",
+    "dl_group",
+    "dlies",
+    "dsa",
+    "dyn_load",
+    "eax",
+    "ec_group",
+    "ecc_key",
+    "ecdh",
+    "ecdsa",
+    "ecgdsa",
+    "ecies",
+    "eckcdsa",
+    "ed25519",
+    "elgamal",
+    "eme_oaep",
+    "eme_pkcs1",
+    "eme_raw",
+    "emsa1",
+    "emsa_pkcs1",
+    "emsa_pssr",
+    "emsa_raw",
+    "emsa_x931",
+    "entropy",
+    "ffi",
+    "filters",
+    "fpe_fe1",
+    "gcm",
+    "ghash",
+    "ghash_cpu",
+    "ghash_vperm",
+    "gmac",
+    "gost_28147",
+    "gost_3410",
+    "gost_3411",
+    "hash",
+    "hash_id",
+    "hex",
+    "hkdf",
+    "hmac",
+    "hmac_drbg",
+    "hotp",
+    "http_util",
+    "idea",
+    "idea_sse2",
+    "iso9796",
+    "kasumi",
+    "kdf",
+    "kdf1",
+    "kdf1_iso18033",
+    "kdf2",
+    "keccak",
+    "keypair",
+    "lion",
+    "locking_allocator",
+    "mac",
+    "mce",
+    "mceies",
+    "md4",
+    "md5",
+    "mdx_hash",
+    "mem_pool",
+    "mgf1",
+    "misty1",
+    "mode_pad",
+    "modes",
+    "mp",
+    "newhope",
+    "nist_keywrap",
+    "noekeon",
+    "noekeon_simd",
+    "numbertheory",
+    "ocb",
+    "ofb",
+    "par_hash",
+    "passhash9",
+    "pbes2",
+    "pbkdf",
+    "pbkdf1",
+    "pbkdf2",
+    "pem",
+    "pgp_s2k",
+    "pk_pad",
+    "pkcs11",
+    "poly1305",
+    "poly_dbl",
+    "prf_tls",
+    "prf_x942",
+    "processor_rng",
+    "psk_db",
+    "pubkey",
+    "rc4",
+    "rdrand_rng",
+    "rdseed",
+    "rfc3394",
+    "rfc6979",
+    "rmd160",
+    "rng",
+    "roughtime",
+    "rsa",
+    "salsa20",
+    "scrypt",
+    "seed",
+    "serpent",
+    "serpent_simd",
+    "sessions_sql",
+    "sha1",
+    "sha1_sse2",
+    "sha1_x86",
+    "sha2_32",
+    "sha2_32_x86",
+    "sha2_64",
+    "sha3",
+    "shacal2",
+    "shacal2_simd",
+    "shacal2_x86",
+    "shake",
+    "shake_cipher",
+    "simd",
+    "siphash",
+    "siv",
+    "skein",
+    "sm2",
+    "sm3",
+    "sm4",
+    "socket",
+    "sodium",
+    "sp800_108",
+    "sp800_56a",
+    "sp800_56c",
+    "srp6",
+    "stateful_rng",
+    "stream",
+    "streebog",
+    "system_rng",
+    "thread_utils",
+    "threefish_512",
+    "tiger",
+    "tls",
+    "tls_10",
+    "tls_cbc",
+    "tss",
+    "twofish",
+    "utils",
+    "uuid",
+    "whirlpool",
+    "win32_stats",
+    "x509",
+    "x919_mac",
+    "xmss",
+    "xtea",
+    "xts"
+  ],
+  "module_defines": [
+    "ADLER32 20131128",
+    "AEAD_CCM 20131128",
+    "AEAD_CHACHA20_POLY1305 20180807",
+    "AEAD_EAX 20131128",
+    "AEAD_GCM 20131128",
+    "AEAD_MODES 20131128",
+    "AEAD_OCB 20131128",
+    "AEAD_SIV 20131202",
+    "AES 20131128",
+    "AES_NI 20131128",
+    "AES_VPERM 20190901",
+    "ANSI_X919_MAC 20131128",
+    "ARGON2 20190824",
+    "ARIA 20170415",
+    "ASN1 20171109",
+    "AUTO_RNG 20161126",
+    "AUTO_SEEDING_RNG 20160821",
+    "BASE32_CODEC 20180418",
+    "BASE58_CODEC 20181209",
+    "BASE64_CODEC 20131128",
+    "BCRYPT 20131128",
+    "BIGINT 20131128",
+    "BIGINT_MP 20151225",
+    "BLAKE2B 20130131",
+    "BLOCK_CIPHER 20131128",
+    "BLOWFISH 20180718",
+    "CAMELLIA 20150922",
+    "CASCADE 20131128",
+    "CAST 20131128",
+    "CAST_128 20171203",
+    "CAST_256 20171203",
+    "CBC_MAC 20131128",
+    "CECPQ1 20161116",
+    "CERTSTOR_FLATFILE 20190410",
+    "CERTSTOR_SQL 20160818",
+    "CERTSTOR_SYSTEM 20190411",
+    "CERTSTOR_WINDOWS 20190430",
+    "CHACHA 20180807",
+    "CHACHA_RNG 20170728",
+    "CHACHA_SIMD32 20181104",
+    "CIPHER_MODES 20180124",
+    "CIPHER_MODE_PADDING 20131128",
+    "CMAC 20131128",
+    "CODEC_FILTERS 20131128",
+    "COMB4P 20131128",
+    "CPUID 20170917",
+    "CRC24 20131128",
+    "CRC32 20131128",
+    "CRYPTO_BOX 20131128",
+    "CTR_BE 20131128",
+    "CURVE_25519 20170621",
+    "DES 20131128",
+    "DIFFIE_HELLMAN 20131128",
+    "DLIES 20160713",
+    "DL_GROUP 20131128",
+    "DL_PUBLIC_KEY_FAMILY 20131128",
+    "DSA 20131128",
+    "DYNAMIC_LOADER 20160310",
+    "ECC_GROUP 20170225",
+    "ECC_KEY 20190801",
+    "ECC_PUBLIC_KEY_CRYPTO 20131128",
+    "ECDH 20131128",
+    "ECDSA 20131128",
+    "ECGDSA 20160301",
+    "ECIES 20160128",
+    "ECKCDSA 20160413",
+    "EC_CURVE_GFP 20131128",
+    "ED25519 20170607",
+    "ELGAMAL 20131128",
+    "EME_OAEP 20180305",
+    "EME_PKCS1 20190426",
+    "EME_PKCS1v15 20131128",
+    "EME_RAW 20150313",
+    "EMSA1 20131128",
+    "EMSA_PKCS1 20140118",
+    "EMSA_PSSR 20131128",
+    "EMSA_RAW 20131128",
+    "EMSA_X931 20140118",
+    "ENTROPY_SOURCE 20151120",
+    "ENTROPY_SRC_RDSEED 20151218",
+    "ENTROPY_SRC_WIN32 20200209",
+    "FFI 20210220",
+    "FILTERS 20160415",
+    "FPE_FE1 20131128",
+    "GHASH 20201002",
+    "GHASH_CLMUL_CPU 20201002",
+    "GHASH_CLMUL_VPERM 20201002",
+    "GMAC 20160207",
+    "GOST_28147_89 20131128",
+    "GOST_34_10_2001 20131128",
+    "GOST_34_10_2012 20190801",
+    "GOST_34_11 20131128",
+    "HASH 20180112",
+    "HASH_ID 20131128",
+    "HEX_CODEC 20131128",
+    "HKDF 20170927",
+    "HMAC 20131128",
+    "HMAC_DRBG 20140319",
+    "HOTP 20180816",
+    "HTTP_UTIL 20171003",
+    "IDEA 20131128",
+    "IDEA_SSE2 20131128",
+    "ISO_9796 20161121",
+    "KASUMI 20131128",
+    "KDF1 20131128",
+    "KDF1_18033 20160128",
+    "KDF2 20131128",
+    "KDF_BASE 20131128",
+    "KECCAK 20131128",
+    "KEYPAIR_TESTING 20131128",
+    "LION 20131128",
+    "LOCKING_ALLOCATOR 20131128",
+    "MAC 20150626",
+    "MCEIES 20150706",
+    "MCELIECE 20150922",
+    "MD4 20131128",
+    "MD5 20131128",
+    "MDX_HASH_FUNCTION 20131128",
+    "MEM_POOL 20180309",
+    "MGF1 20140118",
+    "MISTY1 20131128",
+    "MODES 20150626",
+    "MODE_CBC 20131128",
+    "MODE_CFB 20131128",
+    "MODE_XTS 20131128",
+    "NEWHOPE 20161018",
+    "NIST_KEYWRAP 20171119",
+    "NOEKEON 20131128",
+    "NOEKEON_SIMD 20160903",
+    "NUMBERTHEORY 20131128",
+    "OCSP 20161118",
+    "OFB 20131128",
+    "PACKAGE_TRANSFORM 20131128",
+    "PARALLEL_HASH 20131128",
+    "PASSHASH9 20131128",
+    "PBKDF 20180902",
+    "PBKDF1 20131128",
+    "PBKDF2 20180902",
+    "PBKDF_BCRYPT 20190531",
+    "PEM_CODEC 20131128",
+    "PGP_S2K 20170527",
+    "PKCS11 20160219",
+    "PKCS5_PBES2 20141119",
+    "PK_PADDING 20131128",
+    "POLY1305 20141227",
+    "POLY_DBL 20170927",
+    "PROCESSOR_RNG 20200508",
+    "PSK_DB 20171119",
+    "PUBLIC_KEY_CRYPTO 20131128",
+    "RC4 20131128",
+    "RDRAND_RNG 20160619",
+    "RFC3394_KEYWRAP 20131128",
+    "RFC6979_GENERATOR 20140321",
+    "RIPEMD_160 20131128",
+    "ROUGHTIME 20190220",
+    "RSA 20160730",
+    "SALSA20 20171114",
+    "SCRYPT 20180902",
+    "SEED 20131128",
+    "SERPENT 20131128",
+    "SERPENT_SIMD 20160903",
+    "SHA1 20131128",
+    "SHA1_SSE2 20160803",
+    "SHA1_X86_SHA_NI 20170518",
+    "SHA2_32 20131128",
+    "SHA2_32_X86 20170518",
+    "SHA2_64 20131128",
+    "SHA3 20161018",
+    "SHACAL2 20170813",
+    "SHACAL2_SIMD 20170813",
+    "SHACAL2_X86 20170814",
+    "SHAKE 20161009",
+    "SHAKE_CIPHER 20161018",
+    "SIMD_32 20131128",
+    "SIPHASH 20150110",
+    "SKEIN_512 20131128",
+    "SM2 20180801",
+    "SM3 20170402",
+    "SM4 20170716",
+    "SOCKETS 20171216",
+    "SODIUM_API 20190615",
+    "SP800_108 20160128",
+    "SP800_56A 20170501",
+    "SP800_56C 20160211",
+    "SRP6 20161017",
+    "STATEFUL_RNG 20160819",
+    "STREAM_CIPHER 20131128",
+    "STREEBOG 20170623",
+    "SYSTEM_RNG 20141202",
+    "THREAD_UTILS 20190922",
+    "THREEFISH_512 20131224",
+    "THRESHOLD_SECRET_SHARING 20131128",
+    "TIGER 20131128",
+    "TLS 20191210",
+    "TLS_CBC 20161008",
+    "TLS_SESSION_MANAGER_SQL_DB 20141219",
+    "TLS_V10 20191109",
+    "TLS_V10_PRF 20131128",
+    "TLS_V12_PRF 20131128",
+    "TOTP 20180816",
+    "TWOFISH 20131128",
+    "UTIL_FUNCTIONS 20180903",
+    "UUID 20180930",
+    "WHIRLPOOL 20131128",
+    "X25519 20180910",
+    "X509 20180911",
+    "X509_CERTIFICATES 20151023",
+    "X942_PRF 20131128",
+    "XMSS_RFC8391 20201101",
+    "XTEA 20131128"
+  ],
+  "mp_bits": 32,
+  "optimize_for_size": false,
+  "os": "windows",
+  "os_feature_macros": "/D_WIN32_WINNT=0x0600",
+  "os_features": [
+    "atomics",
+    "certificate_store",
+    "filesystem",
+    "rtlgenrandom",
+    "rtlsecurezeromemory",
+    "thread_local",
+    "threads",
+    "virtual_lock",
+    "win32",
+    "winsock2"
+  ],
+  "os_name": "windows",
+  "out_dir": ".",
+  "output_to_exe": "/OUT:",
+  "prefix": "c:\\Botan",
+  "program_suffix": ".exe",
+  "python_dir": "c:\\botan\\src\\python",
+  "python_exe": "C:\\Users\\EventGraph\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe",
+  "python_version": "3.9",
+  "release_type": "release",
+  "sanitizer_types": [],
+  "scripts_dir": "c:/botan/src/scripts",
+  "shared_lib_name": "botan.dll",
+  "soname_abi": "botan.dll",
+  "soname_base": "botan.dll",
+  "soname_patch": "botan.dll",
+  "sphinx_config_dir": "c:\\botan\\src\\configs\\sphinx",
+  "src_dir": "c:\\botan\\src",
+  "static_lib_name": "botan.lib",
+  "static_suffix": "lib",
+  "symlink_shared_lib": false,
+  "system_cert_bundle": null,
+  "test_build_info": [
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\main.obj",
+      "src": "c:/botan/src/tests/main.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_aead.obj",
+      "src": "c:/botan/src/tests/test_aead.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_asn1.obj",
+      "src": "c:/botan/src/tests/test_asn1.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_bigint.obj",
+      "src": "c:/botan/src/tests/test_bigint.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_block.obj",
+      "src": "c:/botan/src/tests/test_block.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_blowfish.obj",
+      "src": "c:/botan/src/tests/test_blowfish.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_c25519.obj",
+      "src": "c:/botan/src/tests/test_c25519.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_certstor.obj",
+      "src": "c:/botan/src/tests/test_certstor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_certstor_flatfile.obj",
+      "src": "c:/botan/src/tests/test_certstor_flatfile.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_certstor_system.obj",
+      "src": "c:/botan/src/tests/test_certstor_system.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_certstor_utils.obj",
+      "src": "c:/botan/src/tests/test_certstor_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_clang_bug.obj",
+      "src": "c:/botan/src/tests/test_clang_bug.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_compression.obj",
+      "src": "c:/botan/src/tests/test_compression.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_cryptobox.obj",
+      "src": "c:/botan/src/tests/test_cryptobox.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_datastore.obj",
+      "src": "c:/botan/src/tests/test_datastore.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_dh.obj",
+      "src": "c:/botan/src/tests/test_dh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_dl_group.obj",
+      "src": "c:/botan/src/tests/test_dl_group.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_dlies.obj",
+      "src": "c:/botan/src/tests/test_dlies.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_dsa.obj",
+      "src": "c:/botan/src/tests/test_dsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ecc_pointmul.obj",
+      "src": "c:/botan/src/tests/test_ecc_pointmul.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ecdh.obj",
+      "src": "c:/botan/src/tests/test_ecdh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ecdsa.obj",
+      "src": "c:/botan/src/tests/test_ecdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ecgdsa.obj",
+      "src": "c:/botan/src/tests/test_ecgdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ecies.obj",
+      "src": "c:/botan/src/tests/test_ecies.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_eckcdsa.obj",
+      "src": "c:/botan/src/tests/test_eckcdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ed25519.obj",
+      "src": "c:/botan/src/tests/test_ed25519.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_elg.obj",
+      "src": "c:/botan/src/tests/test_elg.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_entropy.obj",
+      "src": "c:/botan/src/tests/test_entropy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ffi.obj",
+      "src": "c:/botan/src/tests/test_ffi.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_filters.obj",
+      "src": "c:/botan/src/tests/test_filters.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_fpe.obj",
+      "src": "c:/botan/src/tests/test_fpe.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_gf2m.obj",
+      "src": "c:/botan/src/tests/test_gf2m.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_gost_3410.obj",
+      "src": "c:/botan/src/tests/test_gost_3410.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_hash.obj",
+      "src": "c:/botan/src/tests/test_hash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_hash_id.obj",
+      "src": "c:/botan/src/tests/test_hash_id.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_kdf.obj",
+      "src": "c:/botan/src/tests/test_kdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_keywrap.obj",
+      "src": "c:/botan/src/tests/test_keywrap.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_mac.obj",
+      "src": "c:/botan/src/tests/test_mac.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_mceliece.obj",
+      "src": "c:/botan/src/tests/test_mceliece.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_modes.obj",
+      "src": "c:/botan/src/tests/test_modes.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_mp.obj",
+      "src": "c:/botan/src/tests/test_mp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_name_constraint.obj",
+      "src": "c:/botan/src/tests/test_name_constraint.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_newhope.obj",
+      "src": "c:/botan/src/tests/test_newhope.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ocb.obj",
+      "src": "c:/botan/src/tests/test_ocb.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_ocsp.obj",
+      "src": "c:/botan/src/tests/test_ocsp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_octetstring.obj",
+      "src": "c:/botan/src/tests/test_octetstring.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_oid.obj",
+      "src": "c:/botan/src/tests/test_oid.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_os_utils.obj",
+      "src": "c:/botan/src/tests/test_os_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_otp.obj",
+      "src": "c:/botan/src/tests/test_otp.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_package_transform.obj",
+      "src": "c:/botan/src/tests/test_package_transform.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pad.obj",
+      "src": "c:/botan/src/tests/test_pad.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_passhash.obj",
+      "src": "c:/botan/src/tests/test_passhash.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pbkdf.obj",
+      "src": "c:/botan/src/tests/test_pbkdf.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pem.obj",
+      "src": "c:/botan/src/tests/test_pem.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pk_pad.obj",
+      "src": "c:/botan/src/tests/test_pk_pad.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pkcs11_high_level.obj",
+      "src": "c:/botan/src/tests/test_pkcs11_high_level.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pkcs11_low_level.obj",
+      "src": "c:/botan/src/tests/test_pkcs11_low_level.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_psk_db.obj",
+      "src": "c:/botan/src/tests/test_psk_db.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_pubkey.obj",
+      "src": "c:/botan/src/tests/test_pubkey.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_rfc6979.obj",
+      "src": "c:/botan/src/tests/test_rfc6979.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_rng.obj",
+      "src": "c:/botan/src/tests/test_rng.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_rng_kat.obj",
+      "src": "c:/botan/src/tests/test_rng_kat.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_roughtime.obj",
+      "src": "c:/botan/src/tests/test_roughtime.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_rsa.obj",
+      "src": "c:/botan/src/tests/test_rsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_runner.obj",
+      "src": "c:/botan/src/tests/test_runner.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_simd.obj",
+      "src": "c:/botan/src/tests/test_simd.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_siv.obj",
+      "src": "c:/botan/src/tests/test_siv.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_sm2.obj",
+      "src": "c:/botan/src/tests/test_sm2.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_sodium.obj",
+      "src": "c:/botan/src/tests/test_sodium.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_srp6.obj",
+      "src": "c:/botan/src/tests/test_srp6.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_stream.obj",
+      "src": "c:/botan/src/tests/test_stream.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tests.obj",
+      "src": "c:/botan/src/tests/test_tests.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_thread_utils.obj",
+      "src": "c:/botan/src/tests/test_thread_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tls.obj",
+      "src": "c:/botan/src/tests/test_tls.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tls_messages.obj",
+      "src": "c:/botan/src/tests/test_tls_messages.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tls_stream_integration.obj",
+      "src": "c:/botan/src/tests/test_tls_stream_integration.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tpm.obj",
+      "src": "c:/botan/src/tests/test_tpm.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_tss.obj",
+      "src": "c:/botan/src/tests/test_tss.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_uri.obj",
+      "src": "c:/botan/src/tests/test_uri.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_utils.obj",
+      "src": "c:/botan/src/tests/test_utils.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_workfactor.obj",
+      "src": "c:/botan/src/tests/test_workfactor.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_x509_dn.obj",
+      "src": "c:/botan/src/tests/test_x509_dn.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_x509_path.obj",
+      "src": "c:/botan/src/tests/test_x509_path.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\test_xmss.obj",
+      "src": "c:/botan/src/tests/test_xmss.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\tests.obj",
+      "src": "c:/botan/src/tests/tests.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_asio_stream.obj",
+      "src": "c:/botan/src/tests/unit_asio_stream.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_ecc.obj",
+      "src": "c:/botan/src/tests/unit_ecc.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_ecdh.obj",
+      "src": "c:/botan/src/tests/unit_ecdh.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_ecdsa.obj",
+      "src": "c:/botan/src/tests/unit_ecdsa.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_tls.obj",
+      "src": "c:/botan/src/tests/unit_tls.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_tls_policy.obj",
+      "src": "c:/botan/src/tests/unit_tls_policy.cpp"
+    },
+    {
+      "isa_flags": "",
+      "obj": "build\\obj\\test\\unit_x509.obj",
+      "src": "c:/botan/src/tests/unit_x509.cpp"
+    }
+  ],
+  "test_data_dir": "c:\\botan\\src\\tests/data",
+  "test_exe": ".\\botan-test.exe",
+  "test_mode": false,
+  "test_objs": [
+    "build\\obj\\test\\main.obj",
+    "build\\obj\\test\\test_aead.obj",
+    "build\\obj\\test\\test_asn1.obj",
+    "build\\obj\\test\\test_bigint.obj",
+    "build\\obj\\test\\test_block.obj",
+    "build\\obj\\test\\test_blowfish.obj",
+    "build\\obj\\test\\test_c25519.obj",
+    "build\\obj\\test\\test_certstor.obj",
+    "build\\obj\\test\\test_certstor_flatfile.obj",
+    "build\\obj\\test\\test_certstor_system.obj",
+    "build\\obj\\test\\test_certstor_utils.obj",
+    "build\\obj\\test\\test_clang_bug.obj",
+    "build\\obj\\test\\test_compression.obj",
+    "build\\obj\\test\\test_cryptobox.obj",
+    "build\\obj\\test\\test_datastore.obj",
+    "build\\obj\\test\\test_dh.obj",
+    "build\\obj\\test\\test_dl_group.obj",
+    "build\\obj\\test\\test_dlies.obj",
+    "build\\obj\\test\\test_dsa.obj",
+    "build\\obj\\test\\test_ecc_pointmul.obj",
+    "build\\obj\\test\\test_ecdh.obj",
+    "build\\obj\\test\\test_ecdsa.obj",
+    "build\\obj\\test\\test_ecgdsa.obj",
+    "build\\obj\\test\\test_ecies.obj",
+    "build\\obj\\test\\test_eckcdsa.obj",
+    "build\\obj\\test\\test_ed25519.obj",
+    "build\\obj\\test\\test_elg.obj",
+    "build\\obj\\test\\test_entropy.obj",
+    "build\\obj\\test\\test_ffi.obj",
+    "build\\obj\\test\\test_filters.obj",
+    "build\\obj\\test\\test_fpe.obj",
+    "build\\obj\\test\\test_gf2m.obj",
+    "build\\obj\\test\\test_gost_3410.obj",
+    "build\\obj\\test\\test_hash.obj",
+    "build\\obj\\test\\test_hash_id.obj",
+    "build\\obj\\test\\test_kdf.obj",
+    "build\\obj\\test\\test_keywrap.obj",
+    "build\\obj\\test\\test_mac.obj",
+    "build\\obj\\test\\test_mceliece.obj",
+    "build\\obj\\test\\test_modes.obj",
+    "build\\obj\\test\\test_mp.obj",
+    "build\\obj\\test\\test_name_constraint.obj",
+    "build\\obj\\test\\test_newhope.obj",
+    "build\\obj\\test\\test_ocb.obj",
+    "build\\obj\\test\\test_ocsp.obj",
+    "build\\obj\\test\\test_octetstring.obj",
+    "build\\obj\\test\\test_oid.obj",
+    "build\\obj\\test\\test_os_utils.obj",
+    "build\\obj\\test\\test_otp.obj",
+    "build\\obj\\test\\test_package_transform.obj",
+    "build\\obj\\test\\test_pad.obj",
+    "build\\obj\\test\\test_passhash.obj",
+    "build\\obj\\test\\test_pbkdf.obj",
+    "build\\obj\\test\\test_pem.obj",
+    "build\\obj\\test\\test_pk_pad.obj",
+    "build\\obj\\test\\test_pkcs11_high_level.obj",
+    "build\\obj\\test\\test_pkcs11_low_level.obj",
+    "build\\obj\\test\\test_psk_db.obj",
+    "build\\obj\\test\\test_pubkey.obj",
+    "build\\obj\\test\\test_rfc6979.obj",
+    "build\\obj\\test\\test_rng.obj",
+    "build\\obj\\test\\test_rng_kat.obj",
+    "build\\obj\\test\\test_roughtime.obj",
+    "build\\obj\\test\\test_rsa.obj",
+    "build\\obj\\test\\test_runner.obj",
+    "build\\obj\\test\\test_simd.obj",
+    "build\\obj\\test\\test_siv.obj",
+    "build\\obj\\test\\test_sm2.obj",
+    "build\\obj\\test\\test_sodium.obj",
+    "build\\obj\\test\\test_srp6.obj",
+    "build\\obj\\test\\test_stream.obj",
+    "build\\obj\\test\\test_tests.obj",
+    "build\\obj\\test\\test_thread_utils.obj",
+    "build\\obj\\test\\test_tls.obj",
+    "build\\obj\\test\\test_tls_messages.obj",
+    "build\\obj\\test\\test_tls_stream_integration.obj",
+    "build\\obj\\test\\test_tpm.obj",
+    "build\\obj\\test\\test_tss.obj",
+    "build\\obj\\test\\test_uri.obj",
+    "build\\obj\\test\\test_utils.obj",
+    "build\\obj\\test\\test_workfactor.obj",
+    "build\\obj\\test\\test_x509_dn.obj",
+    "build\\obj\\test\\test_x509_path.obj",
+    "build\\obj\\test\\test_xmss.obj",
+    "build\\obj\\test\\tests.obj",
+    "build\\obj\\test\\unit_asio_stream.obj",
+    "build\\obj\\test\\unit_ecc.obj",
+    "build\\obj\\test\\unit_ecdh.obj",
+    "build\\obj\\test\\unit_ecdsa.obj",
+    "build\\obj\\test\\unit_tls.obj",
+    "build\\obj\\test\\unit_tls_policy.obj",
+    "build\\obj\\test\\unit_x509.obj"
+  ],
+  "test_srcs": [
+    "c:/botan/src/tests/main.cpp",
+    "c:/botan/src/tests/test_aead.cpp",
+    "c:/botan/src/tests/test_asn1.cpp",
+    "c:/botan/src/tests/test_bigint.cpp",
+    "c:/botan/src/tests/test_block.cpp",
+    "c:/botan/src/tests/test_blowfish.cpp",
+    "c:/botan/src/tests/test_c25519.cpp",
+    "c:/botan/src/tests/test_certstor.cpp",
+    "c:/botan/src/tests/test_certstor_flatfile.cpp",
+    "c:/botan/src/tests/test_certstor_system.cpp",
+    "c:/botan/src/tests/test_certstor_utils.cpp",
+    "c:/botan/src/tests/test_clang_bug.cpp",
+    "c:/botan/src/tests/test_compression.cpp",
+    "c:/botan/src/tests/test_cryptobox.cpp",
+    "c:/botan/src/tests/test_datastore.cpp",
+    "c:/botan/src/tests/test_dh.cpp",
+    "c:/botan/src/tests/test_dl_group.cpp",
+    "c:/botan/src/tests/test_dlies.cpp",
+    "c:/botan/src/tests/test_dsa.cpp",
+    "c:/botan/src/tests/test_ecc_pointmul.cpp",
+    "c:/botan/src/tests/test_ecdh.cpp",
+    "c:/botan/src/tests/test_ecdsa.cpp",
+    "c:/botan/src/tests/test_ecgdsa.cpp",
+    "c:/botan/src/tests/test_ecies.cpp",
+    "c:/botan/src/tests/test_eckcdsa.cpp",
+    "c:/botan/src/tests/test_ed25519.cpp",
+    "c:/botan/src/tests/test_elg.cpp",
+    "c:/botan/src/tests/test_entropy.cpp",
+    "c:/botan/src/tests/test_ffi.cpp",
+    "c:/botan/src/tests/test_filters.cpp",
+    "c:/botan/src/tests/test_fpe.cpp",
+    "c:/botan/src/tests/test_gf2m.cpp",
+    "c:/botan/src/tests/test_gost_3410.cpp",
+    "c:/botan/src/tests/test_hash.cpp",
+    "c:/botan/src/tests/test_hash_id.cpp",
+    "c:/botan/src/tests/test_kdf.cpp",
+    "c:/botan/src/tests/test_keywrap.cpp",
+    "c:/botan/src/tests/test_mac.cpp",
+    "c:/botan/src/tests/test_mceliece.cpp",
+    "c:/botan/src/tests/test_modes.cpp",
+    "c:/botan/src/tests/test_mp.cpp",
+    "c:/botan/src/tests/test_name_constraint.cpp",
+    "c:/botan/src/tests/test_newhope.cpp",
+    "c:/botan/src/tests/test_ocb.cpp",
+    "c:/botan/src/tests/test_ocsp.cpp",
+    "c:/botan/src/tests/test_octetstring.cpp",
+    "c:/botan/src/tests/test_oid.cpp",
+    "c:/botan/src/tests/test_os_utils.cpp",
+    "c:/botan/src/tests/test_otp.cpp",
+    "c:/botan/src/tests/test_package_transform.cpp",
+    "c:/botan/src/tests/test_pad.cpp",
+    "c:/botan/src/tests/test_passhash.cpp",
+    "c:/botan/src/tests/test_pbkdf.cpp",
+    "c:/botan/src/tests/test_pem.cpp",
+    "c:/botan/src/tests/test_pk_pad.cpp",
+    "c:/botan/src/tests/test_pkcs11_high_level.cpp",
+    "c:/botan/src/tests/test_pkcs11_low_level.cpp",
+    "c:/botan/src/tests/test_psk_db.cpp",
+    "c:/botan/src/tests/test_pubkey.cpp",
+    "c:/botan/src/tests/test_rfc6979.cpp",
+    "c:/botan/src/tests/test_rng.cpp",
+    "c:/botan/src/tests/test_rng_kat.cpp",
+    "c:/botan/src/tests/test_roughtime.cpp",
+    "c:/botan/src/tests/test_rsa.cpp",
+    "c:/botan/src/tests/test_runner.cpp",
+    "c:/botan/src/tests/test_simd.cpp",
+    "c:/botan/src/tests/test_siv.cpp",
+    "c:/botan/src/tests/test_sm2.cpp",
+    "c:/botan/src/tests/test_sodium.cpp",
+    "c:/botan/src/tests/test_srp6.cpp",
+    "c:/botan/src/tests/test_stream.cpp",
+    "c:/botan/src/tests/test_tests.cpp",
+    "c:/botan/src/tests/test_thread_utils.cpp",
+    "c:/botan/src/tests/test_tls.cpp",
+    "c:/botan/src/tests/test_tls_messages.cpp",
+    "c:/botan/src/tests/test_tls_stream_integration.cpp",
+    "c:/botan/src/tests/test_tpm.cpp",
+    "c:/botan/src/tests/test_tss.cpp",
+    "c:/botan/src/tests/test_uri.cpp",
+    "c:/botan/src/tests/test_utils.cpp",
+    "c:/botan/src/tests/test_workfactor.cpp",
+    "c:/botan/src/tests/test_x509_dn.cpp",
+    "c:/botan/src/tests/test_x509_path.cpp",
+    "c:/botan/src/tests/test_xmss.cpp",
+    "c:/botan/src/tests/tests.cpp",
+    "c:/botan/src/tests/unit_asio_stream.cpp",
+    "c:/botan/src/tests/unit_ecc.cpp",
+    "c:/botan/src/tests/unit_ecdh.cpp",
+    "c:/botan/src/tests/unit_ecdsa.cpp",
+    "c:/botan/src/tests/unit_tls.cpp",
+    "c:/botan/src/tests/unit_tls_policy.cpp",
+    "c:/botan/src/tests/unit_x509.cpp"
+  ],
+  "testobj_dir": "build\\obj\\test",
+  "version": "2.18.1",
+  "version_datestamp": 20210509,
+  "version_major": 2,
+  "version_minor": 18,
+  "version_patch": 1,
+  "version_suffix": "",
+  "version_vc_rev": "git:d4bd416702a65eddcc14ee06b9c1b674631e6ae3",
+  "visibility_attribute": "__declspec(dllimport)",
+  "with_debug_asserts": false,
+  "with_documentation": true,
+  "with_doxygen": false,
+  "with_openmp": false,
+  "with_pdf": false,
+  "with_rst2man": null,
+  "with_sphinx": null,
+  "with_valgrind": false
+}
